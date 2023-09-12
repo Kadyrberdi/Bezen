@@ -308,6 +308,11 @@ template {
   display: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header {
   padding-top: 37px;
   margin-bottom: 30px;

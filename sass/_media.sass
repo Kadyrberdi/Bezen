@@ -1,0 +1,45 @@
+.container
+    max-width: 1600px
+    margin: auto
+.grid-item--width 
+    width: 310px
+//  &1 width: 160px   &2  width: 310px 
+@media (max-width: 1600px)
+    .container
+        max-width: 1280px
+
+@media (max-width: 1292px)
+    .container
+        max-width: 960px
+    .header__container
+        grid-template-columns:  30% 40% 25%
+
+@media (max-width: 992px)
+    .container
+        max-width: 640px
+    .header__mid
+        display: none
+    .header__container
+        grid-template-columns:  66% 30%
+
+@media (max-width: 658px)
+    .container
+        max-width: 480px
+    .grid-item--width 
+        width: 155px 
+    .grid-item
+        margin-bottom: 5px
+
+@media (max-width: 490px)
+    .container
+        max-width: 320px
+    .home
+        display: none
+    .header__container
+        grid-template-columns:  52% 40%
+
+@media (max-width: 335px)
+    .container
+        max-width: 310px
+    .grid-item--width 
+        width: 310px

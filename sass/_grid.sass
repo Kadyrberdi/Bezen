@@ -9,8 +9,8 @@
         width: 160px
         height: 120px
         float: left
-        background: #D26
-        border: 2px solid #C8A631
+        background: #ffffff
+        border: 1px solid #C8A631
         border-radius: 5px
         margin-bottom: 10px
         position: relative
@@ -37,7 +37,7 @@
                 height: 306px
             &5
                 height: 360px
-        & img
+        &--img
             width: 100%
             height: 100%
             object-fit: cover
@@ -49,15 +49,32 @@
             width: 100%
             top: 0
             bottom: 0
-                
-            & a
-                display: block
-                & svg
-                    color: #fff
-                    position: absolute
-                    top: 20px
-                    right: 20px
-                    height: 100px
-                    opacity: 1
+        &--icon
+            display: none 
+        &--save
+            background-color: red
+            color: white
+            padding: 12px 20px
+            border-radius : 30px
+            position: absolute
+            top: 10px
+            right: 10px
+            cursor: pointer
+        &--open
+            position: absolute
+            left: 10px
+            bottom: 10px
+        &--share
+            position: absolute
+            right: 10px
+            bottom: 10px
+    
+.grid-item:hover > .grid-item--cover   
+    display: block
+    
+.grid-item:hover > .grid-item--icon
+    transition-duration: 0.5
+    display: block
 
-
+.grid-item:hover > .grid-item--img
+    object-fit: contain

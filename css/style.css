@@ -444,6 +444,9 @@ body {
 .grid-item--icon {
   display: none;
 }
+.grid-item--icon img {
+  height: 30px;
+}
 .grid-item--save {
   background-color: red;
   color: white;
@@ -463,6 +466,11 @@ body {
   position: absolute;
   right: 10px;
   bottom: 10px;
+}
+.grid-item__like {
+  position: absolute;
+  right: 0.5;
+  bottom: 45;
 }
 
 .grid-item:hover > .grid-item--cover {
@@ -519,11 +527,15 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+.account__main {
+  margin-bottom: 28px;
+}
 .account__main__toggle {
   width: 170px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: auto;
 }
 
 .followers {

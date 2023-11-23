@@ -30,7 +30,7 @@
             object-fit: cover
         &--cover
             display: none
-            background-color: #181202
+            background-color: $black
             opacity: .5
             position: absolute
             width: 100%
@@ -41,7 +41,7 @@
             img
                 height: 30px
         &--save
-            background-color: red
+            background-color: $gyzyl
             color: white
             padding: 12px 20px
             border-radius : 30px
@@ -71,3 +71,6 @@
 
 .grid-item:hover > .grid-item--img
     object-fit: contain
+
+.grid div:hover
+    //opacity: 0.9

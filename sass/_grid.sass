@@ -12,6 +12,7 @@
         border-radius: 5px
         margin-bottom: 10px
         position: relative
+        cursor: zoom-in
         &--height
             &1
                 height: 120px
@@ -56,10 +57,10 @@
             position: absolute
             right: 10px
             bottom: 10px
-        &__like
+        &--like
             position: absolute
-            right: 0.5
-            bottom: 45
+            left: 47%
+            top: 47%
     
 .grid-item:hover > .grid-item--cover   
     display: block
@@ -70,4 +71,3 @@
 
 .grid-item:hover > .grid-item--img
     object-fit: contain
-

@@ -410,6 +410,7 @@ body {
   border-radius: 5px;
   margin-bottom: 10px;
   position: relative;
+  cursor: zoom-in;
 }
 .grid-item--height1 {
   height: 120px;
@@ -467,10 +468,10 @@ body {
   right: 10px;
   bottom: 10px;
 }
-.grid-item__like {
+.grid-item--like {
   position: absolute;
-  right: 0.5;
-  bottom: 45;
+  left: 47%;
+  top: 47%;
 }
 
 .grid-item:hover > .grid-item--cover {
@@ -487,6 +488,9 @@ body {
      object-fit: contain;
 }
 
+.account {
+  margin-bottom: 36px;
+}
 .account__avatar {
   height: 120px;
   width: 120px;
@@ -533,9 +537,12 @@ body {
 .account__main__toggle {
   width: 170px;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
   margin: auto;
+}
+.account__main__toggle__item {
+  display: block;
+  margin-bottom: 8px;
 }
 
 .followers {
@@ -553,6 +560,16 @@ body {
   padding: 14px 16px;
   border-radius: 24px;
   cursor: pointer;
+}
+
+.line {
+  width: 60px;
+  border: 2px solid #111111;
+  border-radius: 1.5px;
+}
+
+.saved-line {
+  display: none;
 }
 
 .container {

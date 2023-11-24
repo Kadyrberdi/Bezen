@@ -835,45 +835,35 @@
         <!-- /.modal__overlay -->
         <div class="modal__dialog">
             <a href="#" class="modal__close">
+                <!-- x knopka goymaly -->
                 <img src="img/close.svg" alt="foto :close" />
             </a>
-            <h3 class="title modal__title">Booking</h3>
-            <form action="send.php" method="POST" class="form modal__form">
-                <input
-                    type="text"
-                    class="input modal__input"
-                    placeholder="Your Full Name*"
-                    name="name"
-                    required
-                    minlength="2"
-                />
-                <input
-                    type="tel"
-                    class="input modal__input phone_ru"
-                    placeholder="Phone Number*"
-                    name="phone"
-                    required
-                    minlength="17"
-                />
-                <input
-                    type="email"
-                    class="input modal__input"
-                    placeholder="Your email address*"
-                    name="email"
-                    required
-                />
-                <textarea
-                    class="message modal__message"
-                    placeholder="Message"
-                    name="message"
-                ></textarea>
-                <button class="button modal__button" type="submit">Send</button>
-                <span class="info modal__info">* Required Fields</span>
+            
+            <form class="form modal__form">
+                <div class="form__left">
+                    <!-- <label for="file">File</label> -->
+                    <input class="form__img" id="file" type="file" />
+                    <div class="form__left__items">
+                        <img src="images/icons/upload.svg" alt="upload">
+                        <span>Bir faýl saýlaň ýa-da şu ýere oklaň</span>
+                    </div>
+                </div>
+                <div class="form__right">
+                    <h3 class="title modal__title">Täze fason ýükle</h3>
+                    <input type="text" class="input modal__input" placeholder="Suratyň adyny ýazyň*" name="name" required minlength="2"/>
+                    <input type="tel" class="input modal__input phone_ru" placeholder="Phone Number*" name="phone" required minlength="17"/>
+                    <input type="email" class="input modal__input" placeholder="Your email address*" name="email" required/>
+                    <textarea class="message modal__message" placeholder="Message" name="message"></textarea>
+                    <button class="button modal__button" type="submit">Send</button>
+                    <span class="info modal__info">* Hökmany doldurylmaly ýerler</span>
+                </div>
             </form>
         </div>
         <!-- /.modal__dialog -->
     </div>
     <!-- /.modal -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

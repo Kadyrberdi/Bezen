@@ -1,0 +1,8 @@
+.grid-item {
+    background-color: var(--circle-color);
+    @for $i from 0 through 1000 {
+        &:nth-child(#{$i}) {
+        --circle-color: #{rgba(random(255),random(255),random(255))};
+        }
+    }
+}

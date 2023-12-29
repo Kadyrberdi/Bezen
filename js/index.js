@@ -1,3 +1,4 @@
+//Masonry grid
 var elem = document.querySelector('.grid');
 var msnry = new Masonry(elem, {
   // options
@@ -12,21 +13,28 @@ var msnry = new Masonry('.grid', {
   // options
 });
 
-//SHARE MODAL
 
-const viewBtn = document.querySelectorAll(".view-modal"),
+
+
+
+
+
+
+//share content
+
+const viewBtn = document.querySelector(".view-modal"),
       popup = document.querySelector(".popup"),
-      close = popup.querySelectorAll(".close"),
+      close = popup.querySelector(".close"),
       field = popup.querySelector(".field"),
       input = field.querySelector("input"),
       copy = field.querySelector("button");
 
-viewBtn.forEach(openPopup);
-close.forEach(closePopup);
-
-/* viewBtn.onclick = ()=>{
+viewBtn.onclick = ()=>{
   popup.classList.toggle("show");
-} */
+}
+close.onclick = ()=>{
+  viewBtn.click();
+}
 
 copy.onclick = ()=>{
   input.select(); //select input value
@@ -43,18 +51,59 @@ copy.onclick = ()=>{
 
 
 
-function openPopup(viewBtn) {
-  viewBtn.onclick = ()=>{
-    popup.classList.toggle("show");
-    a_links = popup.getElementsByClassName("social-media")
-    /* a_links[0].href = "/#####"; */
-  }
-}
-function closePopup(viewBtn) {
-  close.onclick = ()=>{
-    viewBtn[0].click();
-    popup.classList.toggle("show");
-    //card[0].click();
-  }
+
+
+
+
+
+
+
+
+
+//Suratyň üstüne basaňda şu aşakdaky modal akno işlemeli
+
+// Select elements
+var contentButton = document.querySelectorAll(".grid-item");
+var photo = document.querySelectorAll(".grid-item--img");
+var closeContentButton = document.querySelectorAll(".data_content__close");
+var contentOverlay = document.querySelectorAll(".data_content__overlay");
+
+// Add click event listeners
+contentButton.forEach(function (button) {
+  button.addEventListener("click", openContent);
+});
+
+closeContentButton.forEach(function (button) {
+  button.addEventListener("click", closeContent);
+});
+
+contentOverlay.forEach(function (overlay) {
+  overlay.addEventListener("click", closeContent);
+});
+
+// Function to open content
+function openContent() {
+  var contentOverlay = document.querySelector(".data_content__overlay");
+  var contentDialog = document.querySelector(".data_content__dialog");
+  contentOverlay.classList.add("data_content__overlay--visible");
+  contentDialog.classList.add("data_content__dialog--visible");
 }
 
+// Function to close content
+function closeContent(event) {
+  event.preventDefault();
+  var contentOverlay = document.querySelector(".data_content__overlay");
+  var contentDialog = document.querySelector(".data_content__dialog");
+  contentOverlay.classList.remove("data_content__overlay--visible");
+  contentDialog.classList.remove("data_content__dialog--visible");
+}
+
+// Add keyup event listener for the 'Esc' key (keyCode 27)
+document.addEventListener("keyup", function (e) {
+  if (e.keyCode === 27) {
+    var contentOverlay = document.querySelector(".data_content__overlay");
+    var contentDialog = document.querySelector(".data_content__dialog");
+    contentOverlay.classList.remove("data_content__overlay--visible");
+    contentDialog.classList.remove("data_content__dialog--visible");
+  }
+});

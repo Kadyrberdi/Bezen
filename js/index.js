@@ -15,7 +15,16 @@ var msnry = new Masonry('.grid', {
 
 
 
+// Download Button Function 
+const download_buttons = document.querySelectorAll(".grid-item--download");
+download_buttons.forEach(element => {
+  element.onclick = function(e) {
+  e.stopPropagation();
+  };
+});
 
+
+// Like Button Functions
 const like_buttons = document.querySelectorAll(".grid-item--like");
 
 like_buttons.forEach(like_button => {

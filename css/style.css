@@ -493,6 +493,7 @@ body {
   top: 47%;
   color: white;
 }
+
 .grid-item:hover > .grid-item--like img {
   height: 30px;
   margin-right: 8px;

@@ -16,12 +16,30 @@ var msnry = new Masonry('.grid', {
 
 
 
+const like_buttons = document.querySelectorAll(".grid-item--like");
+
+like_buttons.forEach(like_button => {
+    like_button.onclick = function(e) {
+    e.stopPropagation();
+    like_img = like_button.getElementsByTagName("img")[0]
+    if (like_img.src == 'images/icons/like.png') {
+        like_img.src = 'images/icons/liked.png'
+    } 
+    else
+    {
+      like_img.src = 'images/icons/like.png'
+    }
+    // popup.children[1].getElementsByTagName("input")[0].value=element.parentElement.children[0].src;
+  };
+});
 
 
 
 
-//share content
 
+
+
+//Share Button Functions
 const viewBtn = document.querySelectorAll(".view-modal"),
       popup = document.querySelector(".popup"),
       close = popup.querySelector(".close"),
@@ -54,20 +72,8 @@ copy.onclick = ()=>{
   }
 }
 
+//Preview Functions
 
-
-
-
-
-
-
-
-
-
-
-//Suratyň üstüne basaňda şu aşakdaky modal akno işlemeli
-
-// Select elements
 var contentButton = document.querySelectorAll(".grid-item");
 var photo = document.querySelectorAll(".grid-item--img");
 var closeContentButton = document.querySelectorAll(".data_content__close");

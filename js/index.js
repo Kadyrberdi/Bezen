@@ -15,20 +15,34 @@ var msnry = new Masonry('.grid', {
 
 
 
+// Download Button Function 
+const download_buttons = document.querySelectorAll(".grid-item--download");
+download_buttons.forEach(element => {
+  element.onclick = function(e) {
+  e.stopPropagation();
+  };
+});
 
+
+// Like Button Functions
 const like_buttons = document.querySelectorAll(".grid-item--like");
 
 like_buttons.forEach(like_button => {
     like_button.onclick = function(e) {
     e.stopPropagation();
-    like_img = like_button.getElementsByTagName("img")[0]
-    if (like_img.src == 'images/icons/like.png') {
-        like_img.src = 'images/icons/liked.png'
-    } 
+    like_img = like_button.getElementsByTagName("svg")[0]
+    like_count = like_button.getElementsByTagName("span")[0]
+    like_img.classList.toggle('like__img')
+
+    if (like_img.classList.contains('like__img')) {
+      like_count.innerText = parseInt(like_count.innerText) + 1;
+      
+    }
     else
     {
-      like_img.src = 'images/icons/like.png'
-    }
+      like_count.innerText = parseInt(like_count.innerText) - 1;
+    };
+    
     // popup.children[1].getElementsByTagName("input")[0].value=element.parentElement.children[0].src;
   };
 });

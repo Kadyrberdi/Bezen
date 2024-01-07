@@ -3,7 +3,7 @@ Bu platforma Fasonlaryň ýygnanýan ýeridir.
 
 Front-end işler : 
 
-- Share button on post (Indiwidual link çykmaly)
+- Share button on post (Indiwidual link çykmaly)  + Done
 - Like button on post (Like basaňda öň ýok bolsa ýürek gyzarmaly, 1 like bar bolsa +1 toggle şekilde köpelmeli)
 - Comments on data-content (Komment ýazylanda ýokary komment geçmeli)
 - search basanda edil pinterestdaki yaly wariantlar (Atlas, Pombarh, Gülýüpek, Ştapel, suzana, streýç, kaşemir) cykmaly . Üstüne basaňda şo filrtri bolan fasonlar çykmaly. Söz ýazaňda bolsa fasonyň adyna we descriptionyna görä searçh etmeli.

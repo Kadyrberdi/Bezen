@@ -22,18 +22,23 @@ var msnry = new Masonry('.grid', {
 
 //share content
 
-const viewBtn = document.querySelector(".view-modal"),
+const viewBtn = document.querySelectorAll(".view-modal"),
       popup = document.querySelector(".popup"),
       close = popup.querySelector(".close"),
       field = popup.querySelector(".field"),
       input = field.querySelector("input"),
       copy = field.querySelector("button");
 
-viewBtn.onclick = ()=>{
-  popup.classList.toggle("show");
-}
+viewBtn.forEach(element => {
+  element.onclick = function(e) {
+    e.stopPropagation();
+    popup.classList.toggle("show");
+    popup.children[1].getElementsByTagName("input")[0].value=element.parentElement.children[0].src;
+  };
+});
+
 close.onclick = ()=>{
-  viewBtn.click();
+  popup.classList.toggle("show");
 }
 
 copy.onclick = ()=>{

@@ -59,11 +59,17 @@
         height: 30px
         width: 30px
 .login
+    display: none
     &:active
         background-color: #000
         color: white
         padding: 12px 10px
         border-radius : 30px
-.logined
+
+.menu
     display: none
+
+.logined:hover > .menu
+    display: block
+    transition-duration: 0.5
 

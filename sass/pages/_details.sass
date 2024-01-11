@@ -1,34 +1,6 @@
 .data_content
-    &__overlay
-        position: fixed
-        left: 0
-        right: 0
-        top: 0
-        bottom: 0
-        background: $black
-        z-index: 100
-        visibility: hidden
-        opacity: 0
-        transition: opacity 0.2s 
-        &--visible
-            visibility: visible
-            opacity: 0.5
     &__dialog
-        position: fixed
-        top: 50%
-        left: 50%
-        width: 1032px
-        background-color: white
-        transform: translate(-50%, -49%)
         border-radius: 32px
-        z-index: 101
-        visibility: hidden
-        opacity: 0
-        transition: opacity 0.2s 
-        overflow-y: auto
-        &--visible
-            visibility: visible
-            opacity: 1
     &__close
         position: absolute
         right: 15px

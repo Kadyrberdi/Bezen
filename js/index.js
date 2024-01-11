@@ -86,15 +86,24 @@ copy.onclick = ()=>{
   }
 }
 
-//Preview Functions
 
-var contentButton = document.querySelectorAll(".grid-item");
+
+// şundan aşakda surata basaňda modal akno çykýanynyň kodlary bar, indi o details.page-de we şoň üçin gerek däl. 
+//
+// 
+//
+// 
+//
+// 
+//
+//Preview Functions
+/* var contentButton = document.querySelectorAll(".grid-item");
 var photo = document.querySelectorAll(".grid-item--img");
 var closeContentButton = document.querySelectorAll(".data_content__close");
-var contentOverlay = document.querySelectorAll(".data_content__overlay");
+var contentOverlay = document.querySelectorAll(".data_content__overlay"); */
 
 // Add click event listeners
-contentButton.forEach(function (button) {
+/* contentButton.forEach(function (button) {
   button.addEventListener("click", openContent);
 });
 
@@ -104,31 +113,31 @@ closeContentButton.forEach(function (button) {
 
 contentOverlay.forEach(function (overlay) {
   overlay.addEventListener("click", closeContent);
-});
+}); */
 
 // Function to open content
-function openContent() {
+/* function openContent() {
   var contentOverlay = document.querySelector(".data_content__overlay");
   var contentDialog = document.querySelector(".data_content__dialog");
   contentOverlay.classList.add("data_content__overlay--visible");
   contentDialog.classList.add("data_content__dialog--visible");
-}
+} */
 
 // Function to close content
-function closeContent(event) {
+/* function closeContent(event) {
   event.preventDefault();
   var contentOverlay = document.querySelector(".data_content__overlay");
   var contentDialog = document.querySelector(".data_content__dialog");
   contentOverlay.classList.remove("data_content__overlay--visible");
   contentDialog.classList.remove("data_content__dialog--visible");
-}
+} */
 
 // Add keyup event listener for the 'Esc' key (keyCode 27)
-document.addEventListener("keyup", function (e) {
+/* document.addEventListener("keyup", function (e) {
   if (e.keyCode === 27) {
     var contentOverlay = document.querySelector(".data_content__overlay");
     var contentDialog = document.querySelector(".data_content__dialog");
     contentOverlay.classList.remove("data_content__overlay--visible");
     contentDialog.classList.remove("data_content__dialog--visible");
   }
-});
+}); */

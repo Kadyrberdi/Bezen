@@ -65,11 +65,32 @@
         color: white
         padding: 12px 10px
         border-radius : 30px
-
 .menu
-    display: none
+    position: relative
+    display: inline-block
+    &__hidden
+        display: none
+        position: absolute
+        background-color: #f9f9f9
+        min-width: 150px
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+        z-index: 1
+        background-color: rgba(255, 255, 255, 0.8) 
+        border-radius: 14px
+    &__link
+        padding: 8px
+        display: inline-block
+        font-weight: 400
+        width: 100%
+        border-radius: 14px
+        &:hover
+            background-color: rgba(200, 166, 49, 0.8) 
+            color: white
+            & svg
+                fill: white
+        & svg
+            margin-right: 6px
 
-.logined:hover > .menu
+.menu:hover > .menu__hidden
     display: block
-    transition-duration: 0.5
 

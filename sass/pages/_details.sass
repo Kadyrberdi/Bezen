@@ -1,15 +1,29 @@
-.data_content
-    &__dialog
-        border-radius: 32px
-    &__close
+.details
+    margin-bottom: 37px
+    &__back
+        //width: 48px
+        //height: 48px
+        max-width: 1016px
+        margin: auto
         position: absolute
-        right: 15px
-        top: 15px
-        text-decoration: none
-        cursor: pointer
-        & img
-            width: 20px
-            height: 20px
+        margin-top: 16px
+        padding: 15px 15px 12px 15px
+        border-radius: 50%
+        //padding: 15px
+        left: 2%
+        animation: 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0s 1 normal forwards running hideShadow
+        &:hover
+            background-color: #f1f1f1
+            
+
+    &__dialog
+        max-width: 1016px
+        margin: auto
+        border-radius: 32px
+        overflow: hidden
+        border: 2px #f1f1f1 solid
+        cursor: auto
+        box-shadow : rgba(0, 0, 0, 0.1) 0px 1px 20px 0px
     &__items
         display: flex
         overflow: hidden
@@ -68,6 +82,22 @@
     margin-bottom: 122px
     &__title
         margin-bottom: 23px
+    &__no
+        display: none
+    &__logo
+        margin-right: 8px
+        height: 32px
+        width: 32px
+        border-radius: 100px
+    &__author
+        font-weight: bold
+        margin-right: 8px
+    &__one
+        display: flex
+        align-items: flex-start
+        & p
+            line-height: 20px
+
 
 .comment
     display: flex

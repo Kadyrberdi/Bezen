@@ -99,8 +99,8 @@ copy.onclick = ()=>{
 //Preview Functions
 /* var contentButton = document.querySelectorAll(".grid-item");
 var photo = document.querySelectorAll(".grid-item--img");
-var closeContentButton = document.querySelectorAll(".data_content__close");
-var contentOverlay = document.querySelectorAll(".data_content__overlay"); */
+var closeContentButton = document.querySelectorAll(".details__close");
+var contentOverlay = document.querySelectorAll(".details__overlay"); */
 
 // Add click event listeners
 /* contentButton.forEach(function (button) {
@@ -117,27 +117,27 @@ contentOverlay.forEach(function (overlay) {
 
 // Function to open content
 /* function openContent() {
-  var contentOverlay = document.querySelector(".data_content__overlay");
-  var contentDialog = document.querySelector(".data_content__dialog");
-  contentOverlay.classList.add("data_content__overlay--visible");
-  contentDialog.classList.add("data_content__dialog--visible");
+  var contentOverlay = document.querySelector(".details__overlay");
+  var contentDialog = document.querySelector(".details__dialog");
+  contentOverlay.classList.add("details__overlay--visible");
+  contentDialog.classList.add("details__dialog--visible");
 } */
 
 // Function to close content
 /* function closeContent(event) {
   event.preventDefault();
-  var contentOverlay = document.querySelector(".data_content__overlay");
-  var contentDialog = document.querySelector(".data_content__dialog");
-  contentOverlay.classList.remove("data_content__overlay--visible");
-  contentDialog.classList.remove("data_content__dialog--visible");
+  var contentOverlay = document.querySelector(".details__overlay");
+  var contentDialog = document.querySelector(".details__dialog");
+  contentOverlay.classList.remove("details__overlay--visible");
+  contentDialog.classList.remove("details__dialog--visible");
 } */
 
 // Add keyup event listener for the 'Esc' key (keyCode 27)
 /* document.addEventListener("keyup", function (e) {
   if (e.keyCode === 27) {
-    var contentOverlay = document.querySelector(".data_content__overlay");
-    var contentDialog = document.querySelector(".data_content__dialog");
-    contentOverlay.classList.remove("data_content__overlay--visible");
-    contentDialog.classList.remove("data_content__dialog--visible");
+    var contentOverlay = document.querySelector(".details__overlay");
+    var contentDialog = document.querySelector(".details__dialog");
+    contentOverlay.classList.remove("details__overlay--visible");
+    contentDialog.classList.remove("details__dialog--visible");
   }
 }); */

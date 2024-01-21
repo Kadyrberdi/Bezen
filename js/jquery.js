@@ -39,17 +39,14 @@ $(document).ready(function () {
 
 
   //profil sahypada tab goýmak
-
-
-  
   var tabsItem = $(".account__main__toggle__item");
-  var contentItem = $(".menu");
+  var contentItem = $(".profile__main");
 
   tabsItem.on("click", function (event) {
     var activeContent = $(this).attr("data-target");
     tabsItem.removeClass("account__main__toggle__item--active");
-    contentItem.removeClass("menu--active");
-    $(activeContent).addClass("menu--active");
+    contentItem.removeClass("profile__main--active");
+    $(activeContent).addClass("profile__main--active");
     $(this).addClass("account__main__toggle__item--active");
   });
 

@@ -17,8 +17,16 @@ $(document).ready(function () {
     event.preventDefault();
     var modalOverlay = $(".modal__overlay");
     var modalDialog = $(".modal__dialog");
+    var UplInput = document.querySelector(".form__img");
+    var bgImage = document.querySelector(".form__left");
+    var hideInput = document.querySelector(".form__left__items");
+
+    bgImage.style.backgroundImage = 'none';
+    hideInput.style.display = 'flex';
+    UplInput.value = null;
     modalOverlay.removeClass("modal__overlay--visible");
     modalDialog.removeClass("modal__dialog--visible");
+
   }
   $(document).keyup(function (e) {
     if (e.keyCode == 27) {

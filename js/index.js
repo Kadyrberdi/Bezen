@@ -141,3 +141,34 @@ contentOverlay.forEach(function (overlay) {
     contentDialog.classList.remove("details__dialog--visible");
   }
 }); */
+function getUploadedFile() {
+  var input = document.querySelector(".form__img");
+  var file = input.files[0];
+
+  if (file) {
+      alert("File selected: " + file.name);
+      // You can use 'file' for further processing before form submission.
+  } else {
+      alert("No file selected.");
+  }
+}
+
+
+function previewImage() {
+const UplInput = document.querySelector(".form__img"),
+  bgImage = document.querySelector(".form__left"),
+  hideInput = document.querySelector(".form__left__items"),
+  file = UplInput.files[0],
+  reader = new FileReader();
+
+  reader.onloadend = function () {
+    bgImage.style.backgroundImage = 'url("' + reader.result + '")';
+    hideInput.style.display = 'none';
+  };
+
+  if (file) {
+      reader.readAsDataURL(file);
+  } else {
+      preview.src = "#";
+  }
+}

@@ -937,6 +937,9 @@ body {
 .form__left {
   margin-right: 48px;
   border-right: 2px solid #f1f1f1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .form__left__items {
   position: absolute;
@@ -964,6 +967,10 @@ body {
   opacity: 0;
 }
 
+/* .form__img:focus > .form__left
+ *  background-image: url("../images/business-accounts/gozelshoptm/Screenshot 2023-09-07 at 10.00.13 PM.png") */
+/* .form__img:active > .form__left__items
+ *  display: none */
 .custom-select-wrapper-colour {
   width: 100%;
   border: 1px solid black;
@@ -1201,3007 +1208,3007 @@ header .close:hover {
   background-color: var(--circle-color);
 }
 .grid-item:nth-child(0) {
-  --circle-color: rgb(238, 110, 96);
+  --circle-color: rgb(112, 215, 164);
 }
 .grid-item:nth-child(1) {
-  --circle-color: rgb(210, 182, 187);
+  --circle-color: rgb(100, 102, 125);
 }
 .grid-item:nth-child(2) {
-  --circle-color: rgb(124, 103, 209);
+  --circle-color: rgb(30, 65, 162);
 }
 .grid-item:nth-child(3) {
-  --circle-color: rgb(45, 17, 12);
+  --circle-color: rgb(170, 226, 134);
 }
 .grid-item:nth-child(4) {
-  --circle-color: rgb(85, 237, 101);
+  --circle-color: rgb(143, 123, 244);
 }
 .grid-item:nth-child(5) {
-  --circle-color: rgb(191, 96, 215);
+  --circle-color: rgb(17, 181, 26);
 }
 .grid-item:nth-child(6) {
-  --circle-color: rgb(38, 121, 58);
+  --circle-color: rgb(151, 93, 2);
 }
 .grid-item:nth-child(7) {
-  --circle-color: rgb(132, 208, 1);
+  --circle-color: rgb(221, 123, 242);
 }
 .grid-item:nth-child(8) {
-  --circle-color: rgb(86, 149, 188);
+  --circle-color: rgb(248, 154, 253);
 }
 .grid-item:nth-child(9) {
-  --circle-color: rgb(88, 164, 216);
+  --circle-color: rgb(51, 171, 180);
 }
 .grid-item:nth-child(10) {
-  --circle-color: rgb(193, 193, 150);
+  --circle-color: rgb(148, 187, 160);
 }
 .grid-item:nth-child(11) {
-  --circle-color: rgb(4, 144, 16);
+  --circle-color: rgb(7, 232, 108);
 }
 .grid-item:nth-child(12) {
-  --circle-color: rgb(66, 212, 14);
+  --circle-color: rgb(59, 179, 254);
 }
 .grid-item:nth-child(13) {
-  --circle-color: rgb(25, 149, 79);
+  --circle-color: rgb(71, 135, 173);
 }
 .grid-item:nth-child(14) {
-  --circle-color: rgb(76, 23, 153);
+  --circle-color: rgb(223, 84, 31);
 }
 .grid-item:nth-child(15) {
-  --circle-color: rgb(205, 77, 130);
+  --circle-color: rgb(166, 227, 28);
 }
 .grid-item:nth-child(16) {
-  --circle-color: rgb(149, 214, 61);
+  --circle-color: rgb(56, 159, 159);
 }
 .grid-item:nth-child(17) {
-  --circle-color: rgb(182, 254, 200);
+  --circle-color: rgb(18, 246, 2);
 }
 .grid-item:nth-child(18) {
-  --circle-color: rgb(201, 116, 32);
+  --circle-color: rgb(250, 168, 21);
 }
 .grid-item:nth-child(19) {
-  --circle-color: rgb(167, 23, 219);
+  --circle-color: rgb(250, 251, 44);
 }
 .grid-item:nth-child(20) {
-  --circle-color: rgb(233, 61, 227);
+  --circle-color: rgb(97, 124, 36);
 }
 .grid-item:nth-child(21) {
-  --circle-color: rgb(27, 227, 229);
+  --circle-color: rgb(202, 164, 170);
 }
 .grid-item:nth-child(22) {
-  --circle-color: rgb(65, 107, 191);
+  --circle-color: rgb(105, 55, 186);
 }
 .grid-item:nth-child(23) {
-  --circle-color: rgb(13, 86, 8);
+  --circle-color: rgb(143, 220, 216);
 }
 .grid-item:nth-child(24) {
-  --circle-color: rgb(254, 236, 236);
+  --circle-color: rgb(255, 248, 65);
 }
 .grid-item:nth-child(25) {
-  --circle-color: rgb(190, 226, 200);
+  --circle-color: rgb(160, 193, 209);
 }
 .grid-item:nth-child(26) {
-  --circle-color: rgb(113, 116, 156);
+  --circle-color: rgb(98, 9, 20);
 }
 .grid-item:nth-child(27) {
-  --circle-color: rgb(77, 135, 6);
+  --circle-color: rgb(80, 30, 241);
 }
 .grid-item:nth-child(28) {
-  --circle-color: rgb(16, 186, 215);
+  --circle-color: rgb(131, 162, 138);
 }
 .grid-item:nth-child(29) {
-  --circle-color: rgb(64, 248, 24);
+  --circle-color: rgb(245, 1, 219);
 }
 .grid-item:nth-child(30) {
-  --circle-color: rgb(236, 250, 179);
+  --circle-color: rgb(113, 69, 234);
 }
 .grid-item:nth-child(31) {
-  --circle-color: rgb(175, 111, 81);
+  --circle-color: rgb(94, 82, 205);
 }
 .grid-item:nth-child(32) {
-  --circle-color: rgb(43, 118, 41);
+  --circle-color: rgb(19, 255, 26);
 }
 .grid-item:nth-child(33) {
-  --circle-color: rgb(173, 80, 199);
+  --circle-color: rgb(55, 100, 12);
 }
 .grid-item:nth-child(34) {
-  --circle-color: rgb(149, 163, 118);
+  --circle-color: rgb(119, 252, 32);
 }
 .grid-item:nth-child(35) {
-  --circle-color: rgb(145, 27, 43);
+  --circle-color: rgb(54, 247, 199);
 }
 .grid-item:nth-child(36) {
-  --circle-color: rgb(52, 92, 47);
+  --circle-color: rgb(6, 191, 166);
 }
 .grid-item:nth-child(37) {
-  --circle-color: rgb(38, 99, 73);
+  --circle-color: rgb(149, 139, 91);
 }
 .grid-item:nth-child(38) {
-  --circle-color: rgb(61, 152, 78);
+  --circle-color: rgb(250, 245, 91);
 }
 .grid-item:nth-child(39) {
-  --circle-color: rgb(228, 162, 121);
+  --circle-color: rgb(198, 36, 19);
 }
 .grid-item:nth-child(40) {
-  --circle-color: rgb(199, 154, 16);
+  --circle-color: rgb(95, 240, 144);
 }
 .grid-item:nth-child(41) {
-  --circle-color: rgb(215, 167, 165);
+  --circle-color: rgb(117, 43, 182);
 }
 .grid-item:nth-child(42) {
-  --circle-color: rgb(64, 228, 12);
+  --circle-color: rgb(91, 61, 194);
 }
 .grid-item:nth-child(43) {
-  --circle-color: rgb(131, 105, 35);
+  --circle-color: rgb(174, 205, 109);
 }
 .grid-item:nth-child(44) {
-  --circle-color: rgb(89, 146, 13);
+  --circle-color: rgb(57, 223, 21);
 }
 .grid-item:nth-child(45) {
-  --circle-color: rgb(7, 68, 135);
+  --circle-color: rgb(223, 61, 27);
 }
 .grid-item:nth-child(46) {
-  --circle-color: rgb(33, 132, 110);
+  --circle-color: rgb(155, 18, 176);
 }
 .grid-item:nth-child(47) {
-  --circle-color: rgb(170, 143, 229);
+  --circle-color: rgb(86, 36, 112);
 }
 .grid-item:nth-child(48) {
-  --circle-color: rgb(61, 69, 112);
+  --circle-color: rgb(168, 45, 229);
 }
 .grid-item:nth-child(49) {
-  --circle-color: rgb(209, 240, 169);
+  --circle-color: rgb(2, 123, 90);
 }
 .grid-item:nth-child(50) {
-  --circle-color: rgb(67, 124, 21);
+  --circle-color: rgb(255, 34, 159);
 }
 .grid-item:nth-child(51) {
-  --circle-color: rgb(198, 221, 179);
+  --circle-color: rgb(56, 113, 237);
 }
 .grid-item:nth-child(52) {
-  --circle-color: rgb(141, 206, 203);
+  --circle-color: rgb(229, 222, 208);
 }
 .grid-item:nth-child(53) {
-  --circle-color: rgb(96, 94, 189);
+  --circle-color: rgb(119, 96, 49);
 }
 .grid-item:nth-child(54) {
-  --circle-color: rgb(67, 88, 79);
+  --circle-color: rgb(113, 79, 120);
 }
 .grid-item:nth-child(55) {
-  --circle-color: rgb(62, 158, 60);
+  --circle-color: rgb(161, 38, 118);
 }
 .grid-item:nth-child(56) {
-  --circle-color: rgb(47, 195, 11);
+  --circle-color: rgb(55, 34, 223);
 }
 .grid-item:nth-child(57) {
-  --circle-color: rgb(205, 4, 109);
+  --circle-color: rgb(161, 125, 58);
 }
 .grid-item:nth-child(58) {
-  --circle-color: rgb(122, 17, 102);
+  --circle-color: rgb(65, 109, 29);
 }
 .grid-item:nth-child(59) {
-  --circle-color: rgb(200, 188, 151);
+  --circle-color: rgb(157, 190, 217);
 }
 .grid-item:nth-child(60) {
-  --circle-color: rgb(55, 45, 97);
+  --circle-color: rgb(201, 246, 16);
 }
 .grid-item:nth-child(61) {
-  --circle-color: rgb(79, 23, 138);
+  --circle-color: rgb(205, 51, 142);
 }
 .grid-item:nth-child(62) {
-  --circle-color: rgb(70, 238, 47);
+  --circle-color: rgb(103, 186, 99);
 }
 .grid-item:nth-child(63) {
-  --circle-color: rgb(151, 132, 107);
+  --circle-color: rgb(199, 74, 135);
 }
 .grid-item:nth-child(64) {
-  --circle-color: rgb(213, 113, 16);
+  --circle-color: rgb(48, 48, 61);
 }
 .grid-item:nth-child(65) {
-  --circle-color: rgb(91, 143, 158);
+  --circle-color: rgb(246, 52, 176);
 }
 .grid-item:nth-child(66) {
-  --circle-color: rgb(22, 100, 20);
+  --circle-color: rgb(232, 148, 30);
 }
 .grid-item:nth-child(67) {
-  --circle-color: rgb(26, 38, 55);
+  --circle-color: rgb(67, 198, 247);
 }
 .grid-item:nth-child(68) {
-  --circle-color: rgb(122, 203, 41);
+  --circle-color: rgb(63, 214, 206);
 }
 .grid-item:nth-child(69) {
-  --circle-color: rgb(119, 181, 63);
+  --circle-color: rgb(23, 215, 223);
 }
 .grid-item:nth-child(70) {
-  --circle-color: rgb(193, 244, 219);
+  --circle-color: rgb(128, 130, 249);
 }
 .grid-item:nth-child(71) {
-  --circle-color: rgb(106, 190, 77);
+  --circle-color: rgb(173, 149, 19);
 }
 .grid-item:nth-child(72) {
-  --circle-color: rgb(176, 70, 83);
+  --circle-color: rgb(154, 22, 147);
 }
 .grid-item:nth-child(73) {
-  --circle-color: rgb(102, 166, 35);
+  --circle-color: rgb(50, 47, 104);
 }
 .grid-item:nth-child(74) {
-  --circle-color: rgb(168, 194, 109);
+  --circle-color: rgb(60, 86, 30);
 }
 .grid-item:nth-child(75) {
-  --circle-color: rgb(174, 1, 150);
+  --circle-color: rgb(15, 7, 207);
 }
 .grid-item:nth-child(76) {
-  --circle-color: rgb(244, 131, 55);
+  --circle-color: rgb(201, 31, 234);
 }
 .grid-item:nth-child(77) {
-  --circle-color: rgb(132, 154, 24);
+  --circle-color: rgb(67, 1, 232);
 }
 .grid-item:nth-child(78) {
-  --circle-color: rgb(88, 128, 173);
+  --circle-color: rgb(165, 171, 239);
 }
 .grid-item:nth-child(79) {
-  --circle-color: rgb(253, 243, 78);
+  --circle-color: rgb(82, 115, 165);
 }
 .grid-item:nth-child(80) {
-  --circle-color: rgb(31, 63, 21);
+  --circle-color: rgb(58, 194, 220);
 }
 .grid-item:nth-child(81) {
-  --circle-color: rgb(161, 159, 13);
+  --circle-color: rgb(25, 156, 12);
 }
 .grid-item:nth-child(82) {
-  --circle-color: rgb(200, 56, 58);
+  --circle-color: rgb(97, 50, 14);
 }
 .grid-item:nth-child(83) {
-  --circle-color: rgb(201, 15, 94);
+  --circle-color: rgb(8, 220, 4);
 }
 .grid-item:nth-child(84) {
-  --circle-color: rgb(228, 33, 134);
+  --circle-color: rgb(18, 160, 129);
 }
 .grid-item:nth-child(85) {
-  --circle-color: rgb(101, 35, 255);
+  --circle-color: rgb(151, 9, 55);
 }
 .grid-item:nth-child(86) {
-  --circle-color: rgb(86, 23, 205);
+  --circle-color: rgb(177, 72, 220);
 }
 .grid-item:nth-child(87) {
-  --circle-color: rgb(147, 109, 182);
+  --circle-color: rgb(4, 76, 57);
 }
 .grid-item:nth-child(88) {
-  --circle-color: rgb(110, 46, 199);
+  --circle-color: rgb(233, 252, 38);
 }
 .grid-item:nth-child(89) {
-  --circle-color: rgb(170, 96, 198);
+  --circle-color: rgb(238, 46, 65);
 }
 .grid-item:nth-child(90) {
-  --circle-color: rgb(82, 30, 201);
+  --circle-color: rgb(166, 12, 121);
 }
 .grid-item:nth-child(91) {
-  --circle-color: rgb(23, 5, 138);
+  --circle-color: rgb(152, 104, 157);
 }
 .grid-item:nth-child(92) {
-  --circle-color: rgb(11, 55, 46);
+  --circle-color: rgb(159, 124, 243);
 }
 .grid-item:nth-child(93) {
-  --circle-color: rgb(66, 36, 106);
+  --circle-color: rgb(11, 13, 43);
 }
 .grid-item:nth-child(94) {
-  --circle-color: rgb(178, 119, 65);
+  --circle-color: rgb(42, 96, 107);
 }
 .grid-item:nth-child(95) {
-  --circle-color: rgb(160, 105, 129);
+  --circle-color: rgb(253, 153, 21);
 }
 .grid-item:nth-child(96) {
-  --circle-color: rgb(163, 164, 215);
+  --circle-color: rgb(180, 67, 210);
 }
 .grid-item:nth-child(97) {
-  --circle-color: rgb(25, 28, 22);
+  --circle-color: rgb(39, 245, 59);
 }
 .grid-item:nth-child(98) {
-  --circle-color: rgb(229, 107, 145);
+  --circle-color: rgb(143, 50, 212);
 }
 .grid-item:nth-child(99) {
-  --circle-color: rgb(172, 233, 35);
+  --circle-color: rgb(136, 15, 51);
 }
 .grid-item:nth-child(100) {
-  --circle-color: rgb(250, 1, 234);
+  --circle-color: rgb(84, 129, 110);
 }
 .grid-item:nth-child(101) {
-  --circle-color: rgb(8, 15, 251);
+  --circle-color: rgb(41, 174, 245);
 }
 .grid-item:nth-child(102) {
-  --circle-color: rgb(248, 175, 220);
+  --circle-color: rgb(132, 20, 213);
 }
 .grid-item:nth-child(103) {
-  --circle-color: rgb(52, 44, 12);
+  --circle-color: rgb(151, 255, 251);
 }
 .grid-item:nth-child(104) {
-  --circle-color: rgb(125, 9, 60);
+  --circle-color: rgb(81, 10, 204);
 }
 .grid-item:nth-child(105) {
-  --circle-color: rgb(220, 68, 177);
+  --circle-color: rgb(21, 23, 66);
 }
 .grid-item:nth-child(106) {
-  --circle-color: rgb(119, 109, 15);
+  --circle-color: rgb(50, 189, 143);
 }
 .grid-item:nth-child(107) {
-  --circle-color: rgb(88, 6, 39);
+  --circle-color: rgb(186, 203, 123);
 }
 .grid-item:nth-child(108) {
-  --circle-color: rgb(241, 57, 44);
+  --circle-color: rgb(239, 137, 42);
 }
 .grid-item:nth-child(109) {
-  --circle-color: rgb(95, 112, 210);
+  --circle-color: rgb(149, 142, 108);
 }
 .grid-item:nth-child(110) {
-  --circle-color: rgb(103, 119, 169);
+  --circle-color: rgb(64, 60, 67);
 }
 .grid-item:nth-child(111) {
-  --circle-color: rgb(67, 252, 238);
+  --circle-color: rgb(155, 5, 80);
 }
 .grid-item:nth-child(112) {
-  --circle-color: rgb(71, 198, 205);
+  --circle-color: rgb(67, 173, 246);
 }
 .grid-item:nth-child(113) {
-  --circle-color: rgb(166, 122, 175);
+  --circle-color: rgb(161, 72, 234);
 }
 .grid-item:nth-child(114) {
-  --circle-color: rgb(148, 10, 63);
+  --circle-color: rgb(154, 180, 168);
 }
 .grid-item:nth-child(115) {
-  --circle-color: rgb(167, 113, 129);
+  --circle-color: rgb(178, 188, 253);
 }
 .grid-item:nth-child(116) {
-  --circle-color: rgb(211, 212, 50);
+  --circle-color: rgb(129, 100, 191);
 }
 .grid-item:nth-child(117) {
-  --circle-color: rgb(6, 201, 218);
+  --circle-color: rgb(208, 243, 229);
 }
 .grid-item:nth-child(118) {
-  --circle-color: rgb(221, 241, 108);
+  --circle-color: rgb(138, 163, 231);
 }
 .grid-item:nth-child(119) {
-  --circle-color: rgb(239, 229, 29);
+  --circle-color: rgb(171, 35, 29);
 }
 .grid-item:nth-child(120) {
-  --circle-color: rgb(50, 188, 255);
+  --circle-color: rgb(38, 203, 139);
 }
 .grid-item:nth-child(121) {
-  --circle-color: rgb(44, 35, 77);
+  --circle-color: rgb(241, 20, 105);
 }
 .grid-item:nth-child(122) {
-  --circle-color: rgb(67, 179, 172);
+  --circle-color: rgb(139, 4, 195);
 }
 .grid-item:nth-child(123) {
-  --circle-color: rgb(110, 145, 203);
+  --circle-color: rgb(170, 152, 37);
 }
 .grid-item:nth-child(124) {
-  --circle-color: rgb(36, 94, 95);
+  --circle-color: rgb(172, 116, 182);
 }
 .grid-item:nth-child(125) {
-  --circle-color: rgb(30, 165, 217);
+  --circle-color: rgb(77, 135, 218);
 }
 .grid-item:nth-child(126) {
-  --circle-color: rgb(224, 4, 28);
+  --circle-color: rgb(66, 210, 107);
 }
 .grid-item:nth-child(127) {
-  --circle-color: rgb(216, 118, 32);
+  --circle-color: rgb(84, 114, 201);
 }
 .grid-item:nth-child(128) {
-  --circle-color: rgb(206, 195, 25);
+  --circle-color: rgb(162, 203, 72);
 }
 .grid-item:nth-child(129) {
-  --circle-color: rgb(31, 85, 103);
+  --circle-color: rgb(126, 79, 242);
 }
 .grid-item:nth-child(130) {
-  --circle-color: rgb(136, 112, 120);
+  --circle-color: rgb(122, 191, 49);
 }
 .grid-item:nth-child(131) {
-  --circle-color: rgb(168, 28, 145);
+  --circle-color: rgb(26, 127, 212);
 }
 .grid-item:nth-child(132) {
-  --circle-color: rgb(189, 254, 63);
+  --circle-color: rgb(142, 124, 202);
 }
 .grid-item:nth-child(133) {
-  --circle-color: rgb(214, 149, 64);
+  --circle-color: rgb(246, 94, 140);
 }
 .grid-item:nth-child(134) {
-  --circle-color: rgb(189, 158, 139);
+  --circle-color: rgb(105, 241, 53);
 }
 .grid-item:nth-child(135) {
-  --circle-color: rgb(224, 223, 188);
+  --circle-color: rgb(169, 91, 64);
 }
 .grid-item:nth-child(136) {
-  --circle-color: rgb(142, 79, 123);
+  --circle-color: rgb(114, 16, 70);
 }
 .grid-item:nth-child(137) {
-  --circle-color: rgb(208, 65, 19);
+  --circle-color: rgb(78, 28, 56);
 }
 .grid-item:nth-child(138) {
-  --circle-color: rgb(95, 111, 121);
+  --circle-color: rgb(9, 72, 191);
 }
 .grid-item:nth-child(139) {
-  --circle-color: rgb(148, 40, 205);
+  --circle-color: rgb(168, 66, 89);
 }
 .grid-item:nth-child(140) {
-  --circle-color: rgb(180, 142, 197);
+  --circle-color: rgb(22, 30, 157);
 }
 .grid-item:nth-child(141) {
-  --circle-color: rgb(127, 7, 251);
+  --circle-color: rgb(28, 24, 208);
 }
 .grid-item:nth-child(142) {
-  --circle-color: rgb(193, 211, 238);
+  --circle-color: rgb(60, 242, 110);
 }
 .grid-item:nth-child(143) {
-  --circle-color: rgb(208, 87, 71);
+  --circle-color: rgb(67, 253, 244);
 }
 .grid-item:nth-child(144) {
-  --circle-color: rgb(128, 224, 68);
+  --circle-color: rgb(149, 146, 73);
 }
 .grid-item:nth-child(145) {
-  --circle-color: rgb(198, 97, 42);
+  --circle-color: rgb(88, 254, 113);
 }
 .grid-item:nth-child(146) {
-  --circle-color: rgb(96, 219, 215);
+  --circle-color: rgb(91, 234, 180);
 }
 .grid-item:nth-child(147) {
-  --circle-color: rgb(66, 88, 209);
+  --circle-color: rgb(179, 174, 79);
 }
 .grid-item:nth-child(148) {
-  --circle-color: rgb(106, 4, 73);
+  --circle-color: rgb(57, 168, 187);
 }
 .grid-item:nth-child(149) {
-  --circle-color: rgb(183, 168, 187);
+  --circle-color: rgb(112, 92, 51);
 }
 .grid-item:nth-child(150) {
-  --circle-color: rgb(84, 2, 205);
+  --circle-color: rgb(48, 192, 18);
 }
 .grid-item:nth-child(151) {
-  --circle-color: rgb(194, 172, 33);
+  --circle-color: rgb(151, 19, 48);
 }
 .grid-item:nth-child(152) {
-  --circle-color: rgb(97, 41, 17);
+  --circle-color: rgb(111, 66, 37);
 }
 .grid-item:nth-child(153) {
-  --circle-color: rgb(198, 170, 150);
+  --circle-color: rgb(199, 139, 192);
 }
 .grid-item:nth-child(154) {
-  --circle-color: rgb(16, 193, 29);
+  --circle-color: rgb(22, 16, 108);
 }
 .grid-item:nth-child(155) {
-  --circle-color: rgb(181, 241, 248);
+  --circle-color: rgb(50, 39, 26);
 }
 .grid-item:nth-child(156) {
-  --circle-color: rgb(54, 34, 187);
+  --circle-color: rgb(248, 172, 13);
 }
 .grid-item:nth-child(157) {
-  --circle-color: rgb(77, 144, 198);
+  --circle-color: rgb(105, 182, 192);
 }
 .grid-item:nth-child(158) {
-  --circle-color: rgb(55, 50, 207);
+  --circle-color: rgb(100, 186, 115);
 }
 .grid-item:nth-child(159) {
-  --circle-color: rgb(223, 149, 159);
+  --circle-color: rgb(195, 241, 93);
 }
 .grid-item:nth-child(160) {
-  --circle-color: rgb(15, 136, 238);
+  --circle-color: rgb(155, 76, 97);
 }
 .grid-item:nth-child(161) {
-  --circle-color: rgb(234, 42, 187);
+  --circle-color: rgb(93, 1, 249);
 }
 .grid-item:nth-child(162) {
-  --circle-color: rgb(224, 133, 35);
+  --circle-color: rgb(208, 61, 234);
 }
 .grid-item:nth-child(163) {
-  --circle-color: rgb(242, 31, 223);
+  --circle-color: rgb(170, 158, 71);
 }
 .grid-item:nth-child(164) {
-  --circle-color: rgb(184, 238, 181);
+  --circle-color: rgb(206, 149, 227);
 }
 .grid-item:nth-child(165) {
-  --circle-color: rgb(197, 186, 19);
+  --circle-color: rgb(131, 137, 254);
 }
 .grid-item:nth-child(166) {
-  --circle-color: rgb(30, 223, 224);
+  --circle-color: rgb(102, 214, 198);
 }
 .grid-item:nth-child(167) {
-  --circle-color: rgb(116, 66, 109);
+  --circle-color: rgb(53, 186, 116);
 }
 .grid-item:nth-child(168) {
-  --circle-color: rgb(30, 227, 162);
+  --circle-color: rgb(84, 138, 65);
 }
 .grid-item:nth-child(169) {
-  --circle-color: rgb(220, 90, 106);
+  --circle-color: rgb(139, 47, 9);
 }
 .grid-item:nth-child(170) {
-  --circle-color: rgb(138, 12, 65);
+  --circle-color: rgb(94, 192, 221);
 }
 .grid-item:nth-child(171) {
-  --circle-color: rgb(106, 183, 72);
+  --circle-color: rgb(254, 75, 206);
 }
 .grid-item:nth-child(172) {
-  --circle-color: rgb(219, 57, 219);
+  --circle-color: rgb(253, 8, 101);
 }
 .grid-item:nth-child(173) {
-  --circle-color: rgb(136, 53, 76);
+  --circle-color: rgb(13, 208, 59);
 }
 .grid-item:nth-child(174) {
-  --circle-color: rgb(39, 201, 201);
+  --circle-color: rgb(190, 24, 218);
 }
 .grid-item:nth-child(175) {
-  --circle-color: rgb(48, 209, 9);
+  --circle-color: rgb(208, 54, 92);
 }
 .grid-item:nth-child(176) {
-  --circle-color: rgb(71, 244, 21);
+  --circle-color: rgb(194, 238, 39);
 }
 .grid-item:nth-child(177) {
-  --circle-color: rgb(5, 2, 54);
+  --circle-color: rgb(231, 67, 55);
 }
 .grid-item:nth-child(178) {
-  --circle-color: rgb(75, 204, 23);
+  --circle-color: rgb(226, 232, 7);
 }
 .grid-item:nth-child(179) {
-  --circle-color: rgb(93, 106, 161);
+  --circle-color: rgb(198, 4, 235);
 }
 .grid-item:nth-child(180) {
-  --circle-color: rgb(17, 190, 248);
+  --circle-color: rgb(136, 83, 29);
 }
 .grid-item:nth-child(181) {
-  --circle-color: rgb(18, 82, 179);
+  --circle-color: rgb(64, 92, 24);
 }
 .grid-item:nth-child(182) {
-  --circle-color: rgb(231, 74, 136);
+  --circle-color: rgb(170, 64, 145);
 }
 .grid-item:nth-child(183) {
-  --circle-color: rgb(44, 80, 235);
+  --circle-color: rgb(130, 204, 64);
 }
 .grid-item:nth-child(184) {
-  --circle-color: rgb(228, 201, 203);
+  --circle-color: rgb(203, 229, 163);
 }
 .grid-item:nth-child(185) {
-  --circle-color: rgb(121, 66, 253);
+  --circle-color: rgb(173, 51, 198);
 }
 .grid-item:nth-child(186) {
-  --circle-color: rgb(43, 225, 7);
+  --circle-color: rgb(151, 139, 95);
 }
 .grid-item:nth-child(187) {
-  --circle-color: rgb(99, 107, 11);
+  --circle-color: rgb(242, 224, 237);
 }
 .grid-item:nth-child(188) {
-  --circle-color: rgb(121, 209, 16);
+  --circle-color: rgb(220, 166, 41);
 }
 .grid-item:nth-child(189) {
-  --circle-color: rgb(206, 228, 194);
+  --circle-color: rgb(184, 43, 20);
 }
 .grid-item:nth-child(190) {
-  --circle-color: rgb(42, 234, 119);
+  --circle-color: rgb(140, 48, 56);
 }
 .grid-item:nth-child(191) {
-  --circle-color: rgb(90, 144, 255);
+  --circle-color: rgb(160, 120, 92);
 }
 .grid-item:nth-child(192) {
-  --circle-color: rgb(126, 24, 227);
+  --circle-color: rgb(118, 57, 74);
 }
 .grid-item:nth-child(193) {
-  --circle-color: rgb(167, 53, 139);
+  --circle-color: rgb(191, 151, 170);
 }
 .grid-item:nth-child(194) {
-  --circle-color: rgb(151, 246, 191);
+  --circle-color: rgb(235, 79, 168);
 }
 .grid-item:nth-child(195) {
-  --circle-color: rgb(13, 4, 197);
+  --circle-color: rgb(211, 78, 45);
 }
 .grid-item:nth-child(196) {
-  --circle-color: rgb(201, 198, 18);
+  --circle-color: rgb(70, 167, 85);
 }
 .grid-item:nth-child(197) {
-  --circle-color: rgb(110, 62, 81);
+  --circle-color: rgb(111, 12, 53);
 }
 .grid-item:nth-child(198) {
-  --circle-color: rgb(236, 157, 170);
+  --circle-color: rgb(81, 59, 119);
 }
 .grid-item:nth-child(199) {
-  --circle-color: rgb(122, 164, 68);
+  --circle-color: rgb(60, 21, 174);
 }
 .grid-item:nth-child(200) {
-  --circle-color: rgb(230, 108, 32);
+  --circle-color: rgb(28, 236, 23);
 }
 .grid-item:nth-child(201) {
-  --circle-color: rgb(252, 157, 182);
+  --circle-color: rgb(160, 158, 126);
 }
 .grid-item:nth-child(202) {
-  --circle-color: rgb(55, 189, 193);
+  --circle-color: rgb(36, 199, 98);
 }
 .grid-item:nth-child(203) {
-  --circle-color: rgb(115, 182, 246);
+  --circle-color: rgb(34, 136, 228);
 }
 .grid-item:nth-child(204) {
-  --circle-color: rgb(241, 212, 67);
+  --circle-color: rgb(167, 43, 15);
 }
 .grid-item:nth-child(205) {
-  --circle-color: rgb(215, 91, 85);
+  --circle-color: rgb(115, 77, 45);
 }
 .grid-item:nth-child(206) {
-  --circle-color: rgb(232, 32, 190);
+  --circle-color: rgb(176, 40, 65);
 }
 .grid-item:nth-child(207) {
-  --circle-color: rgb(72, 142, 167);
+  --circle-color: rgb(134, 111, 165);
 }
 .grid-item:nth-child(208) {
-  --circle-color: rgb(48, 31, 117);
+  --circle-color: rgb(196, 243, 114);
 }
 .grid-item:nth-child(209) {
-  --circle-color: rgb(192, 2, 118);
+  --circle-color: rgb(178, 72, 57);
 }
 .grid-item:nth-child(210) {
-  --circle-color: rgb(127, 175, 29);
+  --circle-color: rgb(194, 29, 143);
 }
 .grid-item:nth-child(211) {
-  --circle-color: rgb(101, 211, 106);
+  --circle-color: rgb(179, 246, 32);
 }
 .grid-item:nth-child(212) {
-  --circle-color: rgb(99, 70, 41);
+  --circle-color: rgb(20, 228, 111);
 }
 .grid-item:nth-child(213) {
-  --circle-color: rgb(230, 137, 111);
+  --circle-color: rgb(108, 217, 166);
 }
 .grid-item:nth-child(214) {
-  --circle-color: rgb(16, 190, 223);
+  --circle-color: rgb(14, 37, 174);
 }
 .grid-item:nth-child(215) {
-  --circle-color: rgb(221, 78, 38);
+  --circle-color: rgb(40, 176, 172);
 }
 .grid-item:nth-child(216) {
-  --circle-color: rgb(167, 150, 163);
+  --circle-color: rgb(37, 183, 101);
 }
 .grid-item:nth-child(217) {
-  --circle-color: rgb(243, 218, 236);
+  --circle-color: rgb(14, 13, 200);
 }
 .grid-item:nth-child(218) {
-  --circle-color: rgb(153, 178, 84);
+  --circle-color: rgb(88, 101, 112);
 }
 .grid-item:nth-child(219) {
-  --circle-color: rgb(179, 36, 93);
+  --circle-color: rgb(245, 131, 186);
 }
 .grid-item:nth-child(220) {
-  --circle-color: rgb(2, 146, 94);
+  --circle-color: rgb(19, 18, 93);
 }
 .grid-item:nth-child(221) {
-  --circle-color: rgb(73, 131, 230);
+  --circle-color: rgb(15, 244, 59);
 }
 .grid-item:nth-child(222) {
-  --circle-color: rgb(210, 5, 40);
+  --circle-color: rgb(126, 6, 83);
 }
 .grid-item:nth-child(223) {
-  --circle-color: rgb(122, 11, 51);
+  --circle-color: rgb(195, 83, 93);
 }
 .grid-item:nth-child(224) {
-  --circle-color: rgb(46, 245, 180);
+  --circle-color: rgb(82, 217, 151);
 }
 .grid-item:nth-child(225) {
-  --circle-color: rgb(228, 42, 191);
+  --circle-color: rgb(13, 79, 99);
 }
 .grid-item:nth-child(226) {
-  --circle-color: rgb(115, 21, 232);
+  --circle-color: rgb(186, 121, 234);
 }
 .grid-item:nth-child(227) {
-  --circle-color: rgb(180, 227, 250);
+  --circle-color: rgb(198, 240, 141);
 }
 .grid-item:nth-child(228) {
-  --circle-color: rgb(59, 25, 230);
+  --circle-color: rgb(214, 25, 92);
 }
 .grid-item:nth-child(229) {
-  --circle-color: rgb(117, 174, 197);
+  --circle-color: rgb(159, 158, 64);
 }
 .grid-item:nth-child(230) {
-  --circle-color: rgb(62, 101, 63);
+  --circle-color: rgb(240, 238, 13);
 }
 .grid-item:nth-child(231) {
-  --circle-color: rgb(11, 2, 13);
+  --circle-color: rgb(153, 195, 216);
 }
 .grid-item:nth-child(232) {
-  --circle-color: rgb(249, 137, 68);
+  --circle-color: rgb(225, 167, 56);
 }
 .grid-item:nth-child(233) {
-  --circle-color: rgb(184, 170, 201);
+  --circle-color: rgb(79, 244, 254);
 }
 .grid-item:nth-child(234) {
-  --circle-color: rgb(33, 105, 214);
+  --circle-color: rgb(252, 208, 156);
 }
 .grid-item:nth-child(235) {
-  --circle-color: rgb(67, 231, 141);
+  --circle-color: rgb(138, 166, 190);
 }
 .grid-item:nth-child(236) {
-  --circle-color: rgb(93, 143, 215);
+  --circle-color: rgb(222, 199, 24);
 }
 .grid-item:nth-child(237) {
-  --circle-color: rgb(164, 202, 21);
+  --circle-color: rgb(55, 118, 245);
 }
 .grid-item:nth-child(238) {
-  --circle-color: rgb(153, 174, 111);
+  --circle-color: rgb(189, 227, 234);
 }
 .grid-item:nth-child(239) {
-  --circle-color: rgb(4, 245, 173);
+  --circle-color: rgb(162, 65, 96);
 }
 .grid-item:nth-child(240) {
-  --circle-color: rgb(39, 30, 22);
+  --circle-color: rgb(87, 62, 244);
 }
 .grid-item:nth-child(241) {
-  --circle-color: rgb(204, 131, 231);
+  --circle-color: rgb(254, 68, 56);
 }
 .grid-item:nth-child(242) {
-  --circle-color: rgb(122, 97, 72);
+  --circle-color: rgb(23, 144, 99);
 }
 .grid-item:nth-child(243) {
-  --circle-color: rgb(210, 106, 167);
+  --circle-color: rgb(144, 94, 18);
 }
 .grid-item:nth-child(244) {
-  --circle-color: rgb(172, 186, 98);
+  --circle-color: rgb(204, 210, 122);
 }
 .grid-item:nth-child(245) {
-  --circle-color: rgb(77, 216, 114);
+  --circle-color: rgb(32, 246, 135);
 }
 .grid-item:nth-child(246) {
-  --circle-color: rgb(232, 164, 87);
+  --circle-color: rgb(25, 90, 168);
 }
 .grid-item:nth-child(247) {
-  --circle-color: rgb(236, 126, 158);
+  --circle-color: rgb(253, 159, 115);
 }
 .grid-item:nth-child(248) {
-  --circle-color: rgb(80, 198, 50);
+  --circle-color: rgb(203, 150, 34);
 }
 .grid-item:nth-child(249) {
-  --circle-color: rgb(214, 249, 100);
+  --circle-color: rgb(60, 84, 228);
 }
 .grid-item:nth-child(250) {
-  --circle-color: rgb(34, 111, 74);
+  --circle-color: rgb(175, 56, 19);
 }
 .grid-item:nth-child(251) {
-  --circle-color: rgb(48, 245, 43);
+  --circle-color: rgb(122, 182, 236);
 }
 .grid-item:nth-child(252) {
-  --circle-color: rgb(36, 243, 74);
+  --circle-color: rgb(16, 8, 38);
 }
 .grid-item:nth-child(253) {
-  --circle-color: rgb(255, 33, 54);
+  --circle-color: rgb(196, 113, 67);
 }
 .grid-item:nth-child(254) {
-  --circle-color: rgb(132, 200, 192);
+  --circle-color: rgb(135, 254, 153);
 }
 .grid-item:nth-child(255) {
-  --circle-color: rgb(4, 214, 49);
+  --circle-color: rgb(185, 160, 247);
 }
 .grid-item:nth-child(256) {
-  --circle-color: rgb(253, 192, 155);
+  --circle-color: rgb(43, 241, 185);
 }
 .grid-item:nth-child(257) {
-  --circle-color: rgb(64, 180, 129);
+  --circle-color: rgb(247, 189, 72);
 }
 .grid-item:nth-child(258) {
-  --circle-color: rgb(236, 105, 172);
+  --circle-color: rgb(25, 85, 149);
 }
 .grid-item:nth-child(259) {
-  --circle-color: rgb(134, 197, 109);
+  --circle-color: rgb(141, 207, 227);
 }
 .grid-item:nth-child(260) {
-  --circle-color: rgb(37, 255, 45);
+  --circle-color: rgb(192, 127, 2);
 }
 .grid-item:nth-child(261) {
-  --circle-color: rgb(102, 4, 93);
+  --circle-color: rgb(220, 93, 232);
 }
 .grid-item:nth-child(262) {
-  --circle-color: rgb(202, 178, 122);
+  --circle-color: rgb(74, 251, 234);
 }
 .grid-item:nth-child(263) {
-  --circle-color: rgb(54, 103, 141);
+  --circle-color: rgb(125, 9, 161);
 }
 .grid-item:nth-child(264) {
-  --circle-color: rgb(34, 171, 10);
+  --circle-color: rgb(249, 106, 95);
 }
 .grid-item:nth-child(265) {
-  --circle-color: rgb(96, 199, 82);
+  --circle-color: rgb(92, 111, 12);
 }
 .grid-item:nth-child(266) {
-  --circle-color: rgb(51, 132, 189);
+  --circle-color: rgb(251, 182, 113);
 }
 .grid-item:nth-child(267) {
-  --circle-color: rgb(72, 146, 202);
+  --circle-color: rgb(58, 120, 198);
 }
 .grid-item:nth-child(268) {
-  --circle-color: rgb(138, 179, 51);
+  --circle-color: rgb(196, 94, 8);
 }
 .grid-item:nth-child(269) {
-  --circle-color: rgb(200, 34, 164);
+  --circle-color: rgb(254, 148, 34);
 }
 .grid-item:nth-child(270) {
-  --circle-color: rgb(75, 168, 41);
+  --circle-color: rgb(205, 210, 181);
 }
 .grid-item:nth-child(271) {
-  --circle-color: rgb(122, 47, 176);
+  --circle-color: rgb(162, 183, 86);
 }
 .grid-item:nth-child(272) {
-  --circle-color: rgb(179, 72, 39);
+  --circle-color: rgb(152, 243, 150);
 }
 .grid-item:nth-child(273) {
-  --circle-color: rgb(146, 173, 170);
+  --circle-color: rgb(99, 39, 228);
 }
 .grid-item:nth-child(274) {
-  --circle-color: rgb(155, 62, 55);
+  --circle-color: rgb(139, 108, 238);
 }
 .grid-item:nth-child(275) {
-  --circle-color: rgb(153, 187, 212);
+  --circle-color: rgb(233, 117, 230);
 }
 .grid-item:nth-child(276) {
-  --circle-color: rgb(43, 7, 165);
+  --circle-color: rgb(127, 80, 21);
 }
 .grid-item:nth-child(277) {
-  --circle-color: rgb(24, 30, 229);
+  --circle-color: rgb(65, 187, 131);
 }
 .grid-item:nth-child(278) {
-  --circle-color: rgb(54, 59, 10);
+  --circle-color: rgb(2, 164, 89);
 }
 .grid-item:nth-child(279) {
-  --circle-color: rgb(165, 47, 124);
+  --circle-color: rgb(15, 123, 208);
 }
 .grid-item:nth-child(280) {
-  --circle-color: rgb(15, 171, 108);
+  --circle-color: rgb(46, 236, 97);
 }
 .grid-item:nth-child(281) {
-  --circle-color: rgb(49, 67, 108);
+  --circle-color: rgb(45, 152, 181);
 }
 .grid-item:nth-child(282) {
-  --circle-color: rgb(184, 164, 161);
+  --circle-color: rgb(164, 94, 66);
 }
 .grid-item:nth-child(283) {
-  --circle-color: rgb(75, 238, 163);
+  --circle-color: rgb(211, 235, 59);
 }
 .grid-item:nth-child(284) {
-  --circle-color: rgb(214, 188, 154);
+  --circle-color: rgb(203, 109, 248);
 }
 .grid-item:nth-child(285) {
-  --circle-color: rgb(198, 235, 248);
+  --circle-color: rgb(203, 33, 173);
 }
 .grid-item:nth-child(286) {
-  --circle-color: rgb(37, 46, 47);
+  --circle-color: rgb(170, 20, 86);
 }
 .grid-item:nth-child(287) {
-  --circle-color: rgb(180, 242, 219);
+  --circle-color: rgb(243, 112, 126);
 }
 .grid-item:nth-child(288) {
-  --circle-color: rgb(33, 255, 131);
+  --circle-color: rgb(159, 29, 189);
 }
 .grid-item:nth-child(289) {
-  --circle-color: rgb(74, 226, 118);
+  --circle-color: rgb(113, 164, 79);
 }
 .grid-item:nth-child(290) {
-  --circle-color: rgb(231, 121, 221);
+  --circle-color: rgb(77, 215, 179);
 }
 .grid-item:nth-child(291) {
-  --circle-color: rgb(255, 245, 220);
+  --circle-color: rgb(89, 194, 194);
 }
 .grid-item:nth-child(292) {
-  --circle-color: rgb(96, 192, 99);
+  --circle-color: rgb(4, 41, 81);
 }
 .grid-item:nth-child(293) {
-  --circle-color: rgb(71, 52, 164);
+  --circle-color: rgb(182, 54, 144);
 }
 .grid-item:nth-child(294) {
-  --circle-color: rgb(226, 129, 206);
+  --circle-color: rgb(194, 123, 154);
 }
 .grid-item:nth-child(295) {
-  --circle-color: rgb(149, 17, 24);
+  --circle-color: rgb(220, 45, 104);
 }
 .grid-item:nth-child(296) {
-  --circle-color: rgb(179, 72, 131);
+  --circle-color: rgb(46, 137, 84);
 }
 .grid-item:nth-child(297) {
-  --circle-color: rgb(164, 139, 8);
+  --circle-color: rgb(62, 107, 241);
 }
 .grid-item:nth-child(298) {
-  --circle-color: rgb(56, 222, 63);
+  --circle-color: rgb(142, 44, 34);
 }
 .grid-item:nth-child(299) {
-  --circle-color: rgb(249, 7, 115);
+  --circle-color: rgb(172, 152, 242);
 }
 .grid-item:nth-child(300) {
-  --circle-color: rgb(29, 40, 149);
+  --circle-color: rgb(215, 152, 25);
 }
 .grid-item:nth-child(301) {
-  --circle-color: rgb(166, 178, 51);
+  --circle-color: rgb(205, 136, 106);
 }
 .grid-item:nth-child(302) {
-  --circle-color: rgb(58, 126, 43);
+  --circle-color: rgb(164, 29, 249);
 }
 .grid-item:nth-child(303) {
-  --circle-color: rgb(192, 164, 244);
+  --circle-color: rgb(79, 170, 198);
 }
 .grid-item:nth-child(304) {
-  --circle-color: rgb(12, 110, 139);
+  --circle-color: rgb(196, 219, 174);
 }
 .grid-item:nth-child(305) {
-  --circle-color: rgb(53, 108, 109);
+  --circle-color: rgb(13, 109, 160);
 }
 .grid-item:nth-child(306) {
-  --circle-color: rgb(172, 141, 112);
+  --circle-color: rgb(31, 153, 31);
 }
 .grid-item:nth-child(307) {
-  --circle-color: rgb(209, 20, 62);
+  --circle-color: rgb(202, 24, 67);
 }
 .grid-item:nth-child(308) {
-  --circle-color: rgb(162, 223, 62);
+  --circle-color: rgb(9, 244, 133);
 }
 .grid-item:nth-child(309) {
-  --circle-color: rgb(34, 51, 84);
+  --circle-color: rgb(253, 201, 116);
 }
 .grid-item:nth-child(310) {
-  --circle-color: rgb(227, 44, 240);
+  --circle-color: rgb(108, 182, 183);
 }
 .grid-item:nth-child(311) {
-  --circle-color: rgb(124, 43, 201);
+  --circle-color: rgb(31, 187, 201);
 }
 .grid-item:nth-child(312) {
-  --circle-color: rgb(61, 107, 123);
+  --circle-color: rgb(50, 200, 168);
 }
 .grid-item:nth-child(313) {
-  --circle-color: rgb(253, 254, 175);
+  --circle-color: rgb(145, 41, 223);
 }
 .grid-item:nth-child(314) {
-  --circle-color: rgb(7, 220, 117);
+  --circle-color: rgb(165, 241, 69);
 }
 .grid-item:nth-child(315) {
-  --circle-color: rgb(6, 161, 135);
+  --circle-color: rgb(110, 51, 148);
 }
 .grid-item:nth-child(316) {
-  --circle-color: rgb(218, 46, 110);
+  --circle-color: rgb(251, 87, 248);
 }
 .grid-item:nth-child(317) {
-  --circle-color: rgb(213, 220, 225);
+  --circle-color: rgb(47, 8, 104);
 }
 .grid-item:nth-child(318) {
-  --circle-color: rgb(157, 230, 82);
+  --circle-color: rgb(62, 147, 140);
 }
 .grid-item:nth-child(319) {
-  --circle-color: rgb(177, 167, 10);
+  --circle-color: rgb(47, 83, 247);
 }
 .grid-item:nth-child(320) {
-  --circle-color: rgb(8, 19, 236);
+  --circle-color: rgb(235, 226, 175);
 }
 .grid-item:nth-child(321) {
-  --circle-color: rgb(193, 72, 253);
+  --circle-color: rgb(26, 16, 219);
 }
 .grid-item:nth-child(322) {
-  --circle-color: rgb(170, 194, 25);
+  --circle-color: rgb(228, 128, 246);
 }
 .grid-item:nth-child(323) {
-  --circle-color: rgb(127, 238, 49);
+  --circle-color: rgb(66, 66, 213);
 }
 .grid-item:nth-child(324) {
-  --circle-color: rgb(221, 138, 92);
+  --circle-color: rgb(39, 61, 203);
 }
 .grid-item:nth-child(325) {
-  --circle-color: rgb(148, 40, 106);
+  --circle-color: rgb(172, 29, 80);
 }
 .grid-item:nth-child(326) {
-  --circle-color: rgb(48, 42, 41);
+  --circle-color: rgb(9, 65, 106);
 }
 .grid-item:nth-child(327) {
-  --circle-color: rgb(30, 24, 34);
+  --circle-color: rgb(11, 88, 162);
 }
 .grid-item:nth-child(328) {
-  --circle-color: rgb(208, 142, 70);
+  --circle-color: rgb(151, 102, 133);
 }
 .grid-item:nth-child(329) {
-  --circle-color: rgb(227, 195, 243);
+  --circle-color: rgb(186, 135, 41);
 }
 .grid-item:nth-child(330) {
-  --circle-color: rgb(169, 87, 106);
+  --circle-color: rgb(194, 251, 209);
 }
 .grid-item:nth-child(331) {
-  --circle-color: rgb(211, 132, 23);
+  --circle-color: rgb(108, 229, 183);
 }
 .grid-item:nth-child(332) {
-  --circle-color: rgb(210, 51, 14);
+  --circle-color: rgb(77, 41, 162);
 }
 .grid-item:nth-child(333) {
-  --circle-color: rgb(228, 56, 202);
+  --circle-color: rgb(101, 203, 49);
 }
 .grid-item:nth-child(334) {
-  --circle-color: rgb(72, 189, 228);
+  --circle-color: rgb(152, 99, 107);
 }
 .grid-item:nth-child(335) {
-  --circle-color: rgb(224, 66, 61);
+  --circle-color: rgb(22, 216, 98);
 }
 .grid-item:nth-child(336) {
-  --circle-color: rgb(200, 158, 60);
+  --circle-color: rgb(181, 30, 207);
 }
 .grid-item:nth-child(337) {
-  --circle-color: rgb(89, 196, 119);
+  --circle-color: rgb(229, 185, 134);
 }
 .grid-item:nth-child(338) {
-  --circle-color: rgb(131, 132, 136);
+  --circle-color: rgb(118, 183, 35);
 }
 .grid-item:nth-child(339) {
-  --circle-color: rgb(56, 44, 132);
+  --circle-color: rgb(129, 124, 108);
 }
 .grid-item:nth-child(340) {
-  --circle-color: rgb(239, 155, 104);
+  --circle-color: rgb(252, 19, 161);
 }
 .grid-item:nth-child(341) {
-  --circle-color: rgb(137, 12, 21);
+  --circle-color: rgb(28, 241, 18);
 }
 .grid-item:nth-child(342) {
-  --circle-color: rgb(146, 221, 228);
+  --circle-color: rgb(74, 188, 163);
 }
 .grid-item:nth-child(343) {
-  --circle-color: rgb(50, 137, 176);
+  --circle-color: rgb(130, 151, 164);
 }
 .grid-item:nth-child(344) {
-  --circle-color: rgb(3, 58, 73);
+  --circle-color: rgb(20, 150, 102);
 }
 .grid-item:nth-child(345) {
-  --circle-color: rgb(122, 231, 155);
+  --circle-color: rgb(159, 59, 119);
 }
 .grid-item:nth-child(346) {
-  --circle-color: rgb(14, 88, 237);
+  --circle-color: rgb(212, 30, 193);
 }
 .grid-item:nth-child(347) {
-  --circle-color: rgb(212, 119, 197);
+  --circle-color: rgb(147, 51, 159);
 }
 .grid-item:nth-child(348) {
-  --circle-color: rgb(165, 185, 121);
+  --circle-color: rgb(137, 229, 24);
 }
 .grid-item:nth-child(349) {
-  --circle-color: rgb(32, 240, 141);
+  --circle-color: rgb(36, 243, 42);
 }
 .grid-item:nth-child(350) {
-  --circle-color: rgb(153, 238, 191);
+  --circle-color: rgb(64, 42, 119);
 }
 .grid-item:nth-child(351) {
-  --circle-color: rgb(175, 149, 39);
+  --circle-color: rgb(156, 72, 89);
 }
 .grid-item:nth-child(352) {
-  --circle-color: rgb(166, 195, 86);
+  --circle-color: rgb(160, 142, 14);
 }
 .grid-item:nth-child(353) {
-  --circle-color: rgb(214, 160, 42);
+  --circle-color: rgb(92, 140, 115);
 }
 .grid-item:nth-child(354) {
-  --circle-color: rgb(104, 1, 190);
+  --circle-color: rgb(236, 28, 178);
 }
 .grid-item:nth-child(355) {
-  --circle-color: rgb(158, 61, 57);
+  --circle-color: rgb(3, 145, 56);
 }
 .grid-item:nth-child(356) {
-  --circle-color: rgb(239, 12, 36);
+  --circle-color: rgb(222, 71, 218);
 }
 .grid-item:nth-child(357) {
-  --circle-color: rgb(129, 173, 193);
+  --circle-color: rgb(6, 62, 149);
 }
 .grid-item:nth-child(358) {
-  --circle-color: rgb(115, 191, 57);
+  --circle-color: rgb(201, 29, 108);
 }
 .grid-item:nth-child(359) {
-  --circle-color: rgb(84, 34, 97);
+  --circle-color: rgb(72, 147, 24);
 }
 .grid-item:nth-child(360) {
-  --circle-color: rgb(253, 243, 168);
+  --circle-color: rgb(45, 61, 252);
 }
 .grid-item:nth-child(361) {
-  --circle-color: rgb(39, 162, 152);
+  --circle-color: rgb(183, 182, 212);
 }
 .grid-item:nth-child(362) {
-  --circle-color: rgb(127, 27, 167);
+  --circle-color: rgb(60, 99, 142);
 }
 .grid-item:nth-child(363) {
-  --circle-color: rgb(100, 225, 184);
+  --circle-color: rgb(248, 169, 106);
 }
 .grid-item:nth-child(364) {
-  --circle-color: rgb(186, 142, 252);
+  --circle-color: rgb(24, 106, 142);
 }
 .grid-item:nth-child(365) {
-  --circle-color: rgb(195, 203, 190);
+  --circle-color: rgb(183, 150, 98);
 }
 .grid-item:nth-child(366) {
-  --circle-color: rgb(83, 144, 85);
+  --circle-color: rgb(81, 86, 66);
 }
 .grid-item:nth-child(367) {
-  --circle-color: rgb(14, 86, 103);
+  --circle-color: rgb(124, 143, 16);
 }
 .grid-item:nth-child(368) {
-  --circle-color: rgb(112, 246, 241);
+  --circle-color: rgb(124, 155, 84);
 }
 .grid-item:nth-child(369) {
-  --circle-color: rgb(65, 178, 239);
+  --circle-color: rgb(245, 69, 174);
 }
 .grid-item:nth-child(370) {
-  --circle-color: rgb(178, 125, 34);
+  --circle-color: rgb(102, 127, 236);
 }
 .grid-item:nth-child(371) {
-  --circle-color: rgb(22, 29, 48);
+  --circle-color: rgb(200, 104, 207);
 }
 .grid-item:nth-child(372) {
-  --circle-color: rgb(124, 228, 200);
+  --circle-color: rgb(7, 59, 231);
 }
 .grid-item:nth-child(373) {
-  --circle-color: rgb(60, 202, 26);
+  --circle-color: rgb(173, 136, 94);
 }
 .grid-item:nth-child(374) {
-  --circle-color: rgb(147, 163, 154);
+  --circle-color: rgb(222, 185, 43);
 }
 .grid-item:nth-child(375) {
-  --circle-color: rgb(78, 81, 208);
+  --circle-color: rgb(185, 232, 13);
 }
 .grid-item:nth-child(376) {
-  --circle-color: rgb(83, 164, 1);
+  --circle-color: rgb(184, 207, 240);
 }
 .grid-item:nth-child(377) {
-  --circle-color: rgb(137, 130, 75);
+  --circle-color: rgb(239, 109, 11);
 }
 .grid-item:nth-child(378) {
-  --circle-color: rgb(3, 109, 214);
+  --circle-color: rgb(94, 180, 177);
 }
 .grid-item:nth-child(379) {
-  --circle-color: rgb(197, 144, 49);
+  --circle-color: rgb(81, 44, 134);
 }
 .grid-item:nth-child(380) {
-  --circle-color: rgb(104, 160, 118);
+  --circle-color: rgb(49, 48, 252);
 }
 .grid-item:nth-child(381) {
-  --circle-color: rgb(213, 138, 141);
+  --circle-color: rgb(70, 42, 248);
 }
 .grid-item:nth-child(382) {
-  --circle-color: rgb(29, 201, 37);
+  --circle-color: rgb(22, 70, 46);
 }
 .grid-item:nth-child(383) {
-  --circle-color: rgb(54, 170, 79);
+  --circle-color: rgb(52, 63, 123);
 }
 .grid-item:nth-child(384) {
-  --circle-color: rgb(14, 57, 33);
+  --circle-color: rgb(101, 157, 190);
 }
 .grid-item:nth-child(385) {
-  --circle-color: rgb(98, 195, 220);
+  --circle-color: rgb(35, 188, 57);
 }
 .grid-item:nth-child(386) {
-  --circle-color: rgb(45, 156, 101);
+  --circle-color: rgb(56, 27, 98);
 }
 .grid-item:nth-child(387) {
-  --circle-color: rgb(228, 194, 92);
+  --circle-color: rgb(95, 145, 86);
 }
 .grid-item:nth-child(388) {
-  --circle-color: rgb(117, 239, 71);
+  --circle-color: rgb(122, 241, 28);
 }
 .grid-item:nth-child(389) {
-  --circle-color: rgb(199, 17, 190);
+  --circle-color: rgb(80, 68, 150);
 }
 .grid-item:nth-child(390) {
-  --circle-color: rgb(181, 246, 110);
+  --circle-color: rgb(165, 156, 152);
 }
 .grid-item:nth-child(391) {
-  --circle-color: rgb(16, 50, 19);
+  --circle-color: rgb(13, 147, 92);
 }
 .grid-item:nth-child(392) {
-  --circle-color: rgb(3, 222, 95);
+  --circle-color: rgb(254, 211, 175);
 }
 .grid-item:nth-child(393) {
-  --circle-color: rgb(28, 94, 64);
+  --circle-color: rgb(249, 45, 36);
 }
 .grid-item:nth-child(394) {
-  --circle-color: rgb(175, 139, 47);
+  --circle-color: rgb(75, 7, 55);
 }
 .grid-item:nth-child(395) {
-  --circle-color: rgb(185, 178, 156);
+  --circle-color: rgb(206, 130, 83);
 }
 .grid-item:nth-child(396) {
-  --circle-color: rgb(33, 79, 190);
+  --circle-color: rgb(49, 18, 215);
 }
 .grid-item:nth-child(397) {
-  --circle-color: rgb(114, 141, 178);
+  --circle-color: rgb(20, 55, 65);
 }
 .grid-item:nth-child(398) {
-  --circle-color: rgb(251, 4, 201);
+  --circle-color: rgb(57, 225, 250);
 }
 .grid-item:nth-child(399) {
-  --circle-color: rgb(86, 123, 21);
+  --circle-color: rgb(19, 101, 16);
 }
 .grid-item:nth-child(400) {
-  --circle-color: rgb(185, 139, 168);
+  --circle-color: rgb(1, 160, 196);
 }
 .grid-item:nth-child(401) {
-  --circle-color: rgb(81, 187, 73);
+  --circle-color: rgb(206, 209, 53);
 }
 .grid-item:nth-child(402) {
-  --circle-color: rgb(83, 237, 200);
+  --circle-color: rgb(41, 34, 184);
 }
 .grid-item:nth-child(403) {
-  --circle-color: rgb(195, 79, 57);
+  --circle-color: rgb(242, 103, 245);
 }
 .grid-item:nth-child(404) {
-  --circle-color: rgb(118, 148, 89);
+  --circle-color: rgb(86, 191, 33);
 }
 .grid-item:nth-child(405) {
-  --circle-color: rgb(105, 10, 212);
+  --circle-color: rgb(55, 235, 107);
 }
 .grid-item:nth-child(406) {
-  --circle-color: rgb(248, 177, 197);
+  --circle-color: rgb(117, 42, 175);
 }
 .grid-item:nth-child(407) {
-  --circle-color: rgb(217, 186, 252);
+  --circle-color: rgb(211, 46, 200);
 }
 .grid-item:nth-child(408) {
-  --circle-color: rgb(8, 133, 126);
+  --circle-color: rgb(122, 68, 244);
 }
 .grid-item:nth-child(409) {
-  --circle-color: rgb(21, 11, 7);
+  --circle-color: rgb(208, 157, 81);
 }
 .grid-item:nth-child(410) {
-  --circle-color: rgb(45, 144, 134);
+  --circle-color: rgb(149, 117, 218);
 }
 .grid-item:nth-child(411) {
-  --circle-color: rgb(186, 36, 66);
+  --circle-color: rgb(155, 97, 209);
 }
 .grid-item:nth-child(412) {
-  --circle-color: rgb(149, 236, 171);
+  --circle-color: rgb(179, 174, 245);
 }
 .grid-item:nth-child(413) {
-  --circle-color: rgb(213, 36, 136);
+  --circle-color: rgb(109, 137, 229);
 }
 .grid-item:nth-child(414) {
-  --circle-color: rgb(44, 212, 226);
+  --circle-color: rgb(175, 70, 252);
 }
 .grid-item:nth-child(415) {
-  --circle-color: rgb(183, 56, 5);
+  --circle-color: rgb(171, 226, 149);
 }
 .grid-item:nth-child(416) {
-  --circle-color: rgb(79, 92, 126);
+  --circle-color: rgb(2, 97, 191);
 }
 .grid-item:nth-child(417) {
-  --circle-color: rgb(245, 193, 205);
+  --circle-color: rgb(90, 142, 16);
 }
 .grid-item:nth-child(418) {
-  --circle-color: rgb(39, 161, 39);
+  --circle-color: rgb(105, 27, 225);
 }
 .grid-item:nth-child(419) {
-  --circle-color: rgb(74, 123, 81);
+  --circle-color: rgb(226, 198, 201);
 }
 .grid-item:nth-child(420) {
-  --circle-color: rgb(103, 162, 154);
+  --circle-color: rgb(8, 220, 152);
 }
 .grid-item:nth-child(421) {
-  --circle-color: rgb(199, 164, 247);
+  --circle-color: rgb(39, 153, 101);
 }
 .grid-item:nth-child(422) {
-  --circle-color: rgb(7, 193, 238);
+  --circle-color: rgb(178, 138, 221);
 }
 .grid-item:nth-child(423) {
-  --circle-color: rgb(51, 171, 43);
+  --circle-color: rgb(175, 175, 220);
 }
 .grid-item:nth-child(424) {
-  --circle-color: rgb(22, 97, 75);
+  --circle-color: rgb(1, 252, 156);
 }
 .grid-item:nth-child(425) {
-  --circle-color: rgb(78, 45, 57);
+  --circle-color: rgb(189, 7, 179);
 }
 .grid-item:nth-child(426) {
-  --circle-color: rgb(153, 205, 67);
+  --circle-color: rgb(248, 100, 28);
 }
 .grid-item:nth-child(427) {
-  --circle-color: rgb(58, 4, 190);
+  --circle-color: rgb(217, 32, 149);
 }
 .grid-item:nth-child(428) {
-  --circle-color: rgb(123, 47, 101);
+  --circle-color: rgb(15, 77, 230);
 }
 .grid-item:nth-child(429) {
-  --circle-color: rgb(57, 66, 104);
+  --circle-color: rgb(162, 44, 111);
 }
 .grid-item:nth-child(430) {
-  --circle-color: rgb(19, 35, 236);
+  --circle-color: rgb(160, 107, 147);
 }
 .grid-item:nth-child(431) {
-  --circle-color: rgb(114, 141, 240);
+  --circle-color: rgb(195, 45, 93);
 }
 .grid-item:nth-child(432) {
-  --circle-color: rgb(134, 231, 188);
+  --circle-color: rgb(42, 250, 123);
 }
 .grid-item:nth-child(433) {
-  --circle-color: rgb(129, 162, 235);
+  --circle-color: rgb(204, 208, 174);
 }
 .grid-item:nth-child(434) {
-  --circle-color: rgb(161, 136, 241);
+  --circle-color: rgb(199, 131, 190);
 }
 .grid-item:nth-child(435) {
-  --circle-color: rgb(67, 212, 122);
+  --circle-color: rgb(94, 110, 92);
 }
 .grid-item:nth-child(436) {
-  --circle-color: rgb(100, 67, 236);
+  --circle-color: rgb(26, 187, 82);
 }
 .grid-item:nth-child(437) {
-  --circle-color: rgb(206, 136, 11);
+  --circle-color: rgb(89, 247, 31);
 }
 .grid-item:nth-child(438) {
-  --circle-color: rgb(36, 78, 233);
+  --circle-color: rgb(174, 21, 228);
 }
 .grid-item:nth-child(439) {
-  --circle-color: rgb(114, 40, 173);
+  --circle-color: rgb(102, 227, 133);
 }
 .grid-item:nth-child(440) {
-  --circle-color: rgb(56, 149, 6);
+  --circle-color: rgb(57, 181, 29);
 }
 .grid-item:nth-child(441) {
-  --circle-color: rgb(1, 135, 161);
+  --circle-color: rgb(130, 86, 248);
 }
 .grid-item:nth-child(442) {
-  --circle-color: rgb(141, 54, 84);
+  --circle-color: rgb(118, 184, 201);
 }
 .grid-item:nth-child(443) {
-  --circle-color: rgb(66, 241, 22);
+  --circle-color: rgb(136, 175, 208);
 }
 .grid-item:nth-child(444) {
-  --circle-color: rgb(35, 88, 235);
+  --circle-color: rgb(75, 199, 212);
 }
 .grid-item:nth-child(445) {
-  --circle-color: rgb(170, 180, 220);
+  --circle-color: rgb(243, 80, 237);
 }
 .grid-item:nth-child(446) {
-  --circle-color: rgb(17, 233, 77);
+  --circle-color: rgb(106, 146, 76);
 }
 .grid-item:nth-child(447) {
-  --circle-color: rgb(228, 172, 134);
+  --circle-color: rgb(159, 53, 138);
 }
 .grid-item:nth-child(448) {
-  --circle-color: rgb(185, 90, 72);
+  --circle-color: rgb(157, 55, 45);
 }
 .grid-item:nth-child(449) {
-  --circle-color: rgb(102, 207, 103);
+  --circle-color: rgb(142, 71, 19);
 }
 .grid-item:nth-child(450) {
-  --circle-color: rgb(227, 107, 41);
+  --circle-color: rgb(223, 99, 158);
 }
 .grid-item:nth-child(451) {
-  --circle-color: rgb(218, 239, 5);
+  --circle-color: rgb(130, 32, 157);
 }
 .grid-item:nth-child(452) {
-  --circle-color: rgb(135, 211, 236);
+  --circle-color: rgb(155, 51, 128);
 }
 .grid-item:nth-child(453) {
-  --circle-color: rgb(231, 187, 105);
+  --circle-color: rgb(251, 247, 221);
 }
 .grid-item:nth-child(454) {
-  --circle-color: rgb(250, 226, 165);
+  --circle-color: rgb(210, 39, 113);
 }
 .grid-item:nth-child(455) {
-  --circle-color: rgb(26, 59, 201);
+  --circle-color: rgb(151, 162, 169);
 }
 .grid-item:nth-child(456) {
-  --circle-color: rgb(177, 194, 50);
+  --circle-color: rgb(248, 62, 61);
 }
 .grid-item:nth-child(457) {
-  --circle-color: rgb(80, 190, 78);
+  --circle-color: rgb(226, 133, 51);
 }
 .grid-item:nth-child(458) {
-  --circle-color: rgb(22, 111, 234);
+  --circle-color: rgb(37, 212, 58);
 }
 .grid-item:nth-child(459) {
-  --circle-color: rgb(191, 106, 210);
+  --circle-color: rgb(105, 115, 238);
 }
 .grid-item:nth-child(460) {
-  --circle-color: rgb(22, 125, 220);
+  --circle-color: rgb(232, 162, 42);
 }
 .grid-item:nth-child(461) {
-  --circle-color: rgb(1, 107, 94);
+  --circle-color: rgb(37, 105, 196);
 }
 .grid-item:nth-child(462) {
-  --circle-color: rgb(205, 81, 159);
+  --circle-color: rgb(199, 160, 128);
 }
 .grid-item:nth-child(463) {
-  --circle-color: rgb(90, 189, 97);
+  --circle-color: rgb(129, 198, 43);
 }
 .grid-item:nth-child(464) {
-  --circle-color: rgb(145, 226, 35);
+  --circle-color: rgb(166, 29, 115);
 }
 .grid-item:nth-child(465) {
-  --circle-color: rgb(69, 79, 109);
+  --circle-color: rgb(187, 63, 119);
 }
 .grid-item:nth-child(466) {
-  --circle-color: rgb(20, 205, 134);
+  --circle-color: rgb(143, 111, 172);
 }
 .grid-item:nth-child(467) {
-  --circle-color: rgb(95, 61, 100);
+  --circle-color: rgb(97, 166, 13);
 }
 .grid-item:nth-child(468) {
-  --circle-color: rgb(74, 125, 214);
+  --circle-color: rgb(10, 107, 225);
 }
 .grid-item:nth-child(469) {
-  --circle-color: rgb(96, 51, 235);
+  --circle-color: rgb(48, 162, 204);
 }
 .grid-item:nth-child(470) {
-  --circle-color: rgb(157, 122, 111);
+  --circle-color: rgb(1, 165, 137);
 }
 .grid-item:nth-child(471) {
-  --circle-color: rgb(4, 223, 53);
+  --circle-color: rgb(109, 120, 104);
 }
 .grid-item:nth-child(472) {
-  --circle-color: rgb(10, 128, 118);
+  --circle-color: rgb(179, 22, 176);
 }
 .grid-item:nth-child(473) {
-  --circle-color: rgb(190, 28, 208);
+  --circle-color: rgb(11, 189, 129);
 }
 .grid-item:nth-child(474) {
-  --circle-color: rgb(147, 165, 210);
+  --circle-color: rgb(243, 69, 62);
 }
 .grid-item:nth-child(475) {
-  --circle-color: rgb(73, 3, 14);
+  --circle-color: rgb(23, 142, 55);
 }
 .grid-item:nth-child(476) {
-  --circle-color: rgb(84, 18, 82);
+  --circle-color: rgb(217, 53, 110);
 }
 .grid-item:nth-child(477) {
-  --circle-color: rgb(214, 16, 136);
+  --circle-color: rgb(121, 240, 65);
 }
 .grid-item:nth-child(478) {
-  --circle-color: rgb(167, 250, 39);
+  --circle-color: rgb(62, 175, 207);
 }
 .grid-item:nth-child(479) {
-  --circle-color: rgb(223, 123, 84);
+  --circle-color: rgb(59, 12, 51);
 }
 .grid-item:nth-child(480) {
-  --circle-color: rgb(33, 160, 190);
+  --circle-color: rgb(148, 64, 222);
 }
 .grid-item:nth-child(481) {
-  --circle-color: rgb(72, 221, 220);
+  --circle-color: rgb(4, 28, 1);
 }
 .grid-item:nth-child(482) {
-  --circle-color: rgb(103, 71, 65);
+  --circle-color: rgb(134, 206, 90);
 }
 .grid-item:nth-child(483) {
-  --circle-color: rgb(180, 40, 73);
+  --circle-color: rgb(78, 94, 33);
 }
 .grid-item:nth-child(484) {
-  --circle-color: rgb(71, 171, 195);
+  --circle-color: rgb(10, 147, 85);
 }
 .grid-item:nth-child(485) {
-  --circle-color: rgb(170, 242, 122);
+  --circle-color: rgb(82, 187, 169);
 }
 .grid-item:nth-child(486) {
-  --circle-color: rgb(213, 2, 215);
+  --circle-color: rgb(26, 57, 104);
 }
 .grid-item:nth-child(487) {
-  --circle-color: rgb(127, 42, 222);
+  --circle-color: rgb(62, 68, 86);
 }
 .grid-item:nth-child(488) {
-  --circle-color: rgb(19, 249, 10);
+  --circle-color: rgb(186, 232, 192);
 }
 .grid-item:nth-child(489) {
-  --circle-color: rgb(8, 66, 133);
+  --circle-color: rgb(95, 189, 117);
 }
 .grid-item:nth-child(490) {
-  --circle-color: rgb(35, 194, 179);
+  --circle-color: rgb(47, 124, 8);
 }
 .grid-item:nth-child(491) {
-  --circle-color: rgb(110, 121, 224);
+  --circle-color: rgb(221, 158, 52);
 }
 .grid-item:nth-child(492) {
-  --circle-color: rgb(106, 160, 66);
+  --circle-color: rgb(80, 188, 162);
 }
 .grid-item:nth-child(493) {
-  --circle-color: rgb(250, 192, 103);
+  --circle-color: rgb(55, 45, 12);
 }
 .grid-item:nth-child(494) {
-  --circle-color: rgb(165, 49, 92);
+  --circle-color: rgb(88, 98, 194);
 }
 .grid-item:nth-child(495) {
-  --circle-color: rgb(158, 27, 249);
+  --circle-color: rgb(37, 66, 185);
 }
 .grid-item:nth-child(496) {
-  --circle-color: rgb(172, 226, 77);
+  --circle-color: rgb(127, 160, 125);
 }
 .grid-item:nth-child(497) {
-  --circle-color: rgb(249, 95, 4);
+  --circle-color: rgb(36, 243, 41);
 }
 .grid-item:nth-child(498) {
-  --circle-color: rgb(125, 95, 116);
+  --circle-color: rgb(77, 60, 227);
 }
 .grid-item:nth-child(499) {
-  --circle-color: rgb(65, 173, 203);
+  --circle-color: rgb(254, 14, 210);
 }
 .grid-item:nth-child(500) {
-  --circle-color: rgb(35, 20, 97);
+  --circle-color: rgb(116, 120, 28);
 }
 .grid-item:nth-child(501) {
-  --circle-color: rgb(210, 187, 122);
+  --circle-color: rgb(34, 98, 23);
 }
 .grid-item:nth-child(502) {
-  --circle-color: rgb(212, 210, 238);
+  --circle-color: rgb(114, 116, 168);
 }
 .grid-item:nth-child(503) {
-  --circle-color: rgb(205, 139, 65);
+  --circle-color: rgb(88, 10, 132);
 }
 .grid-item:nth-child(504) {
-  --circle-color: rgb(199, 229, 188);
+  --circle-color: rgb(114, 127, 248);
 }
 .grid-item:nth-child(505) {
-  --circle-color: rgb(71, 38, 87);
+  --circle-color: rgb(53, 34, 1);
 }
 .grid-item:nth-child(506) {
-  --circle-color: rgb(107, 190, 162);
+  --circle-color: rgb(156, 145, 2);
 }
 .grid-item:nth-child(507) {
-  --circle-color: rgb(121, 178, 131);
+  --circle-color: rgb(132, 63, 60);
 }
 .grid-item:nth-child(508) {
-  --circle-color: rgb(180, 70, 41);
+  --circle-color: rgb(227, 122, 245);
 }
 .grid-item:nth-child(509) {
-  --circle-color: rgb(40, 27, 169);
+  --circle-color: rgb(95, 242, 154);
 }
 .grid-item:nth-child(510) {
-  --circle-color: rgb(232, 132, 168);
+  --circle-color: rgb(180, 87, 11);
 }
 .grid-item:nth-child(511) {
-  --circle-color: rgb(182, 210, 37);
+  --circle-color: rgb(16, 224, 123);
 }
 .grid-item:nth-child(512) {
-  --circle-color: rgb(245, 117, 56);
+  --circle-color: rgb(78, 87, 180);
 }
 .grid-item:nth-child(513) {
-  --circle-color: rgb(184, 109, 7);
+  --circle-color: rgb(203, 233, 128);
 }
 .grid-item:nth-child(514) {
-  --circle-color: rgb(195, 141, 199);
+  --circle-color: rgb(198, 111, 168);
 }
 .grid-item:nth-child(515) {
-  --circle-color: rgb(43, 240, 84);
+  --circle-color: rgb(67, 252, 41);
 }
 .grid-item:nth-child(516) {
-  --circle-color: rgb(14, 38, 231);
+  --circle-color: rgb(188, 176, 123);
 }
 .grid-item:nth-child(517) {
-  --circle-color: rgb(157, 18, 24);
+  --circle-color: rgb(6, 215, 69);
 }
 .grid-item:nth-child(518) {
-  --circle-color: rgb(102, 4, 253);
+  --circle-color: rgb(5, 7, 102);
 }
 .grid-item:nth-child(519) {
-  --circle-color: rgb(146, 238, 244);
+  --circle-color: rgb(38, 41, 17);
 }
 .grid-item:nth-child(520) {
-  --circle-color: rgb(235, 106, 185);
+  --circle-color: rgb(48, 127, 54);
 }
 .grid-item:nth-child(521) {
-  --circle-color: rgb(230, 138, 100);
+  --circle-color: rgb(97, 43, 75);
 }
 .grid-item:nth-child(522) {
-  --circle-color: rgb(165, 24, 182);
+  --circle-color: rgb(75, 87, 113);
 }
 .grid-item:nth-child(523) {
-  --circle-color: rgb(30, 252, 18);
+  --circle-color: rgb(32, 120, 73);
 }
 .grid-item:nth-child(524) {
-  --circle-color: rgb(13, 158, 3);
+  --circle-color: rgb(100, 230, 59);
 }
 .grid-item:nth-child(525) {
-  --circle-color: rgb(157, 162, 93);
+  --circle-color: rgb(91, 99, 118);
 }
 .grid-item:nth-child(526) {
-  --circle-color: rgb(249, 177, 172);
+  --circle-color: rgb(78, 186, 177);
 }
 .grid-item:nth-child(527) {
-  --circle-color: rgb(110, 242, 111);
+  --circle-color: rgb(251, 228, 183);
 }
 .grid-item:nth-child(528) {
-  --circle-color: rgb(109, 144, 220);
+  --circle-color: rgb(77, 63, 254);
 }
 .grid-item:nth-child(529) {
-  --circle-color: rgb(238, 11, 252);
+  --circle-color: rgb(196, 67, 28);
 }
 .grid-item:nth-child(530) {
-  --circle-color: rgb(73, 206, 159);
+  --circle-color: rgb(87, 71, 119);
 }
 .grid-item:nth-child(531) {
-  --circle-color: rgb(129, 21, 82);
+  --circle-color: rgb(249, 253, 38);
 }
 .grid-item:nth-child(532) {
-  --circle-color: rgb(40, 245, 85);
+  --circle-color: rgb(58, 223, 230);
 }
 .grid-item:nth-child(533) {
-  --circle-color: rgb(148, 137, 47);
+  --circle-color: rgb(31, 214, 209);
 }
 .grid-item:nth-child(534) {
-  --circle-color: rgb(218, 75, 108);
+  --circle-color: rgb(216, 66, 225);
 }
 .grid-item:nth-child(535) {
-  --circle-color: rgb(23, 42, 39);
+  --circle-color: rgb(15, 222, 68);
 }
 .grid-item:nth-child(536) {
-  --circle-color: rgb(34, 65, 67);
+  --circle-color: rgb(115, 219, 184);
 }
 .grid-item:nth-child(537) {
-  --circle-color: rgb(79, 40, 9);
+  --circle-color: rgb(208, 161, 201);
 }
 .grid-item:nth-child(538) {
-  --circle-color: rgb(157, 168, 141);
+  --circle-color: rgb(230, 166, 184);
 }
 .grid-item:nth-child(539) {
-  --circle-color: rgb(27, 81, 138);
+  --circle-color: rgb(132, 224, 226);
 }
 .grid-item:nth-child(540) {
-  --circle-color: rgb(18, 168, 194);
+  --circle-color: rgb(102, 188, 175);
 }
 .grid-item:nth-child(541) {
-  --circle-color: rgb(161, 230, 127);
+  --circle-color: rgb(17, 242, 237);
 }
 .grid-item:nth-child(542) {
-  --circle-color: rgb(241, 187, 6);
+  --circle-color: rgb(93, 182, 62);
 }
 .grid-item:nth-child(543) {
-  --circle-color: rgb(79, 57, 157);
+  --circle-color: rgb(156, 162, 160);
 }
 .grid-item:nth-child(544) {
-  --circle-color: rgb(27, 76, 177);
+  --circle-color: rgb(115, 163, 206);
 }
 .grid-item:nth-child(545) {
-  --circle-color: rgb(111, 92, 32);
+  --circle-color: rgb(103, 224, 242);
 }
 .grid-item:nth-child(546) {
-  --circle-color: rgb(23, 100, 64);
+  --circle-color: rgb(158, 183, 139);
 }
 .grid-item:nth-child(547) {
-  --circle-color: rgb(108, 118, 225);
+  --circle-color: rgb(109, 31, 234);
 }
 .grid-item:nth-child(548) {
-  --circle-color: rgb(59, 174, 57);
+  --circle-color: rgb(55, 16, 223);
 }
 .grid-item:nth-child(549) {
-  --circle-color: rgb(136, 23, 113);
+  --circle-color: rgb(81, 68, 217);
 }
 .grid-item:nth-child(550) {
-  --circle-color: rgb(131, 232, 189);
+  --circle-color: rgb(99, 40, 191);
 }
 .grid-item:nth-child(551) {
-  --circle-color: rgb(136, 130, 140);
+  --circle-color: rgb(149, 63, 1);
 }
 .grid-item:nth-child(552) {
-  --circle-color: rgb(10, 100, 218);
+  --circle-color: rgb(58, 173, 9);
 }
 .grid-item:nth-child(553) {
-  --circle-color: rgb(11, 14, 245);
+  --circle-color: rgb(152, 199, 144);
 }
 .grid-item:nth-child(554) {
-  --circle-color: rgb(72, 202, 154);
+  --circle-color: rgb(72, 226, 226);
 }
 .grid-item:nth-child(555) {
-  --circle-color: rgb(79, 87, 61);
+  --circle-color: rgb(252, 124, 229);
 }
 .grid-item:nth-child(556) {
-  --circle-color: rgb(128, 94, 163);
+  --circle-color: rgb(93, 245, 148);
 }
 .grid-item:nth-child(557) {
-  --circle-color: rgb(179, 192, 5);
+  --circle-color: rgb(196, 107, 212);
 }
 .grid-item:nth-child(558) {
-  --circle-color: rgb(45, 49, 208);
+  --circle-color: rgb(183, 234, 51);
 }
 .grid-item:nth-child(559) {
-  --circle-color: rgb(34, 24, 104);
+  --circle-color: rgb(162, 168, 50);
 }
 .grid-item:nth-child(560) {
-  --circle-color: rgb(122, 245, 16);
+  --circle-color: rgb(101, 150, 155);
 }
 .grid-item:nth-child(561) {
-  --circle-color: rgb(96, 53, 11);
+  --circle-color: rgb(49, 170, 150);
 }
 .grid-item:nth-child(562) {
-  --circle-color: rgb(56, 26, 250);
+  --circle-color: rgb(183, 214, 98);
 }
 .grid-item:nth-child(563) {
-  --circle-color: rgb(1, 65, 119);
+  --circle-color: rgb(110, 238, 130);
 }
 .grid-item:nth-child(564) {
-  --circle-color: rgb(255, 191, 47);
+  --circle-color: rgb(93, 75, 208);
 }
 .grid-item:nth-child(565) {
-  --circle-color: rgb(191, 63, 96);
+  --circle-color: rgb(19, 232, 243);
 }
 .grid-item:nth-child(566) {
-  --circle-color: rgb(33, 148, 84);
+  --circle-color: rgb(77, 55, 95);
 }
 .grid-item:nth-child(567) {
-  --circle-color: rgb(211, 195, 74);
+  --circle-color: rgb(120, 92, 64);
 }
 .grid-item:nth-child(568) {
-  --circle-color: rgb(183, 151, 159);
+  --circle-color: rgb(36, 115, 232);
 }
 .grid-item:nth-child(569) {
-  --circle-color: rgb(107, 149, 215);
+  --circle-color: rgb(97, 215, 3);
 }
 .grid-item:nth-child(570) {
-  --circle-color: rgb(149, 91, 9);
+  --circle-color: rgb(19, 151, 242);
 }
 .grid-item:nth-child(571) {
-  --circle-color: rgb(133, 21, 219);
+  --circle-color: rgb(80, 133, 72);
 }
 .grid-item:nth-child(572) {
-  --circle-color: rgb(136, 195, 60);
+  --circle-color: rgb(138, 102, 28);
 }
 .grid-item:nth-child(573) {
-  --circle-color: rgb(29, 234, 220);
+  --circle-color: rgb(13, 203, 91);
 }
 .grid-item:nth-child(574) {
-  --circle-color: rgb(239, 132, 71);
+  --circle-color: rgb(127, 3, 50);
 }
 .grid-item:nth-child(575) {
-  --circle-color: rgb(186, 189, 161);
+  --circle-color: rgb(120, 170, 181);
 }
 .grid-item:nth-child(576) {
-  --circle-color: rgb(220, 147, 146);
+  --circle-color: rgb(50, 4, 68);
 }
 .grid-item:nth-child(577) {
-  --circle-color: rgb(16, 254, 223);
+  --circle-color: rgb(228, 56, 139);
 }
 .grid-item:nth-child(578) {
-  --circle-color: rgb(175, 66, 98);
+  --circle-color: rgb(36, 40, 218);
 }
 .grid-item:nth-child(579) {
-  --circle-color: rgb(14, 12, 244);
+  --circle-color: rgb(54, 64, 214);
 }
 .grid-item:nth-child(580) {
-  --circle-color: rgb(8, 127, 97);
+  --circle-color: rgb(63, 175, 209);
 }
 .grid-item:nth-child(581) {
-  --circle-color: rgb(43, 105, 227);
+  --circle-color: rgb(31, 70, 41);
 }
 .grid-item:nth-child(582) {
-  --circle-color: rgb(128, 202, 70);
+  --circle-color: rgb(73, 250, 156);
 }
 .grid-item:nth-child(583) {
-  --circle-color: rgb(107, 42, 163);
+  --circle-color: rgb(90, 159, 186);
 }
 .grid-item:nth-child(584) {
-  --circle-color: rgb(70, 182, 87);
+  --circle-color: rgb(84, 188, 130);
 }
 .grid-item:nth-child(585) {
-  --circle-color: rgb(232, 119, 60);
+  --circle-color: rgb(89, 248, 131);
 }
 .grid-item:nth-child(586) {
-  --circle-color: rgb(49, 127, 144);
+  --circle-color: rgb(53, 67, 49);
 }
 .grid-item:nth-child(587) {
-  --circle-color: rgb(187, 36, 20);
+  --circle-color: rgb(11, 121, 88);
 }
 .grid-item:nth-child(588) {
-  --circle-color: rgb(126, 216, 86);
+  --circle-color: rgb(173, 245, 192);
 }
 .grid-item:nth-child(589) {
-  --circle-color: rgb(58, 205, 141);
+  --circle-color: rgb(188, 171, 100);
 }
 .grid-item:nth-child(590) {
-  --circle-color: rgb(77, 68, 60);
+  --circle-color: rgb(211, 151, 211);
 }
 .grid-item:nth-child(591) {
-  --circle-color: rgb(10, 218, 223);
+  --circle-color: rgb(61, 253, 125);
 }
 .grid-item:nth-child(592) {
-  --circle-color: rgb(187, 139, 210);
+  --circle-color: rgb(40, 149, 52);
 }
 .grid-item:nth-child(593) {
-  --circle-color: rgb(207, 197, 85);
+  --circle-color: rgb(30, 222, 9);
 }
 .grid-item:nth-child(594) {
-  --circle-color: rgb(33, 225, 73);
+  --circle-color: rgb(145, 47, 224);
 }
 .grid-item:nth-child(595) {
-  --circle-color: rgb(172, 144, 78);
+  --circle-color: rgb(220, 201, 173);
 }
 .grid-item:nth-child(596) {
-  --circle-color: rgb(75, 25, 159);
+  --circle-color: rgb(222, 210, 173);
 }
 .grid-item:nth-child(597) {
-  --circle-color: rgb(232, 199, 83);
+  --circle-color: rgb(70, 164, 29);
 }
 .grid-item:nth-child(598) {
-  --circle-color: rgb(10, 116, 213);
+  --circle-color: rgb(209, 211, 54);
 }
 .grid-item:nth-child(599) {
-  --circle-color: rgb(249, 188, 47);
+  --circle-color: rgb(55, 68, 124);
 }
 .grid-item:nth-child(600) {
-  --circle-color: rgb(45, 79, 121);
+  --circle-color: rgb(116, 104, 167);
 }
 .grid-item:nth-child(601) {
-  --circle-color: rgb(252, 166, 89);
+  --circle-color: rgb(233, 90, 104);
 }
 .grid-item:nth-child(602) {
-  --circle-color: rgb(81, 155, 222);
+  --circle-color: rgb(147, 189, 98);
 }
 .grid-item:nth-child(603) {
-  --circle-color: rgb(100, 43, 252);
+  --circle-color: rgb(139, 144, 90);
 }
 .grid-item:nth-child(604) {
-  --circle-color: rgb(131, 96, 150);
+  --circle-color: rgb(72, 23, 14);
 }
 .grid-item:nth-child(605) {
-  --circle-color: rgb(113, 65, 39);
+  --circle-color: rgb(75, 43, 205);
 }
 .grid-item:nth-child(606) {
-  --circle-color: rgb(48, 167, 222);
+  --circle-color: rgb(58, 11, 238);
 }
 .grid-item:nth-child(607) {
-  --circle-color: rgb(216, 151, 92);
+  --circle-color: rgb(216, 220, 108);
 }
 .grid-item:nth-child(608) {
-  --circle-color: rgb(113, 60, 255);
+  --circle-color: rgb(225, 211, 116);
 }
 .grid-item:nth-child(609) {
-  --circle-color: rgb(226, 158, 197);
+  --circle-color: rgb(201, 72, 74);
 }
 .grid-item:nth-child(610) {
-  --circle-color: rgb(212, 242, 36);
+  --circle-color: rgb(251, 144, 26);
 }
 .grid-item:nth-child(611) {
-  --circle-color: rgb(250, 5, 230);
+  --circle-color: rgb(190, 116, 37);
 }
 .grid-item:nth-child(612) {
-  --circle-color: rgb(30, 243, 22);
+  --circle-color: rgb(242, 228, 141);
 }
 .grid-item:nth-child(613) {
-  --circle-color: rgb(113, 247, 208);
+  --circle-color: rgb(101, 95, 30);
 }
 .grid-item:nth-child(614) {
-  --circle-color: rgb(46, 222, 47);
+  --circle-color: rgb(243, 191, 5);
 }
 .grid-item:nth-child(615) {
-  --circle-color: rgb(25, 169, 117);
+  --circle-color: rgb(233, 65, 156);
 }
 .grid-item:nth-child(616) {
-  --circle-color: rgb(74, 156, 123);
+  --circle-color: rgb(2, 4, 1);
 }
 .grid-item:nth-child(617) {
-  --circle-color: rgb(82, 58, 203);
+  --circle-color: rgb(171, 188, 150);
 }
 .grid-item:nth-child(618) {
-  --circle-color: rgb(15, 229, 22);
+  --circle-color: rgb(41, 63, 45);
 }
 .grid-item:nth-child(619) {
-  --circle-color: rgb(237, 9, 113);
+  --circle-color: rgb(253, 114, 8);
 }
 .grid-item:nth-child(620) {
-  --circle-color: rgb(15, 156, 50);
+  --circle-color: rgb(42, 107, 183);
 }
 .grid-item:nth-child(621) {
-  --circle-color: rgb(229, 106, 115);
+  --circle-color: rgb(33, 108, 55);
 }
 .grid-item:nth-child(622) {
-  --circle-color: rgb(155, 242, 39);
+  --circle-color: rgb(73, 54, 198);
 }
 .grid-item:nth-child(623) {
-  --circle-color: rgb(106, 126, 153);
+  --circle-color: rgb(236, 16, 46);
 }
 .grid-item:nth-child(624) {
-  --circle-color: rgb(57, 173, 101);
+  --circle-color: rgb(253, 100, 172);
 }
 .grid-item:nth-child(625) {
-  --circle-color: rgb(142, 123, 108);
+  --circle-color: rgb(76, 27, 206);
 }
 .grid-item:nth-child(626) {
-  --circle-color: rgb(23, 150, 244);
+  --circle-color: rgb(45, 83, 76);
 }
 .grid-item:nth-child(627) {
-  --circle-color: rgb(229, 79, 114);
+  --circle-color: rgb(4, 22, 242);
 }
 .grid-item:nth-child(628) {
-  --circle-color: rgb(231, 227, 60);
+  --circle-color: rgb(240, 32, 48);
 }
 .grid-item:nth-child(629) {
-  --circle-color: rgb(49, 213, 73);
+  --circle-color: rgb(105, 243, 218);
 }
 .grid-item:nth-child(630) {
-  --circle-color: rgb(254, 222, 107);
+  --circle-color: rgb(250, 60, 190);
 }
 .grid-item:nth-child(631) {
-  --circle-color: rgb(247, 39, 85);
+  --circle-color: rgb(116, 150, 8);
 }
 .grid-item:nth-child(632) {
-  --circle-color: rgb(149, 38, 84);
+  --circle-color: rgb(78, 139, 22);
 }
 .grid-item:nth-child(633) {
-  --circle-color: rgb(153, 38, 4);
+  --circle-color: rgb(220, 117, 182);
 }
 .grid-item:nth-child(634) {
-  --circle-color: rgb(8, 108, 255);
+  --circle-color: rgb(178, 31, 25);
 }
 .grid-item:nth-child(635) {
-  --circle-color: rgb(220, 50, 162);
+  --circle-color: rgb(1, 221, 204);
 }
 .grid-item:nth-child(636) {
-  --circle-color: rgb(116, 73, 170);
+  --circle-color: rgb(121, 168, 234);
 }
 .grid-item:nth-child(637) {
-  --circle-color: rgb(162, 21, 165);
+  --circle-color: rgb(23, 28, 115);
 }
 .grid-item:nth-child(638) {
-  --circle-color: rgb(246, 119, 253);
+  --circle-color: rgb(63, 162, 188);
 }
 .grid-item:nth-child(639) {
-  --circle-color: rgb(128, 164, 157);
+  --circle-color: rgb(197, 65, 224);
 }
 .grid-item:nth-child(640) {
-  --circle-color: rgb(65, 93, 227);
+  --circle-color: rgb(97, 155, 148);
 }
 .grid-item:nth-child(641) {
-  --circle-color: rgb(193, 118, 160);
+  --circle-color: rgb(99, 247, 48);
 }
 .grid-item:nth-child(642) {
-  --circle-color: rgb(5, 93, 135);
+  --circle-color: rgb(192, 85, 164);
 }
 .grid-item:nth-child(643) {
-  --circle-color: rgb(56, 73, 130);
+  --circle-color: rgb(49, 25, 14);
 }
 .grid-item:nth-child(644) {
-  --circle-color: rgb(50, 178, 20);
+  --circle-color: rgb(137, 95, 100);
 }
 .grid-item:nth-child(645) {
-  --circle-color: rgb(37, 168, 76);
+  --circle-color: rgb(74, 114, 13);
 }
 .grid-item:nth-child(646) {
-  --circle-color: rgb(166, 164, 93);
+  --circle-color: rgb(216, 56, 84);
 }
 .grid-item:nth-child(647) {
-  --circle-color: rgb(115, 71, 4);
+  --circle-color: rgb(241, 251, 147);
 }
 .grid-item:nth-child(648) {
-  --circle-color: rgb(216, 58, 215);
+  --circle-color: rgb(110, 121, 15);
 }
 .grid-item:nth-child(649) {
-  --circle-color: rgb(240, 204, 47);
+  --circle-color: rgb(67, 218, 196);
 }
 .grid-item:nth-child(650) {
-  --circle-color: rgb(218, 226, 102);
+  --circle-color: rgb(172, 117, 108);
 }
 .grid-item:nth-child(651) {
-  --circle-color: rgb(121, 178, 128);
+  --circle-color: rgb(99, 205, 164);
 }
 .grid-item:nth-child(652) {
-  --circle-color: rgb(210, 126, 17);
+  --circle-color: rgb(40, 32, 44);
 }
 .grid-item:nth-child(653) {
-  --circle-color: rgb(55, 229, 112);
+  --circle-color: rgb(198, 195, 238);
 }
 .grid-item:nth-child(654) {
-  --circle-color: rgb(141, 146, 157);
+  --circle-color: rgb(97, 42, 165);
 }
 .grid-item:nth-child(655) {
-  --circle-color: rgb(226, 169, 158);
+  --circle-color: rgb(146, 132, 227);
 }
 .grid-item:nth-child(656) {
-  --circle-color: rgb(1, 71, 248);
+  --circle-color: rgb(246, 58, 50);
 }
 .grid-item:nth-child(657) {
-  --circle-color: rgb(104, 234, 118);
+  --circle-color: rgb(187, 177, 250);
 }
 .grid-item:nth-child(658) {
-  --circle-color: rgb(57, 135, 250);
+  --circle-color: rgb(231, 119, 14);
 }
 .grid-item:nth-child(659) {
-  --circle-color: rgb(8, 69, 215);
+  --circle-color: rgb(217, 6, 242);
 }
 .grid-item:nth-child(660) {
-  --circle-color: rgb(77, 211, 170);
+  --circle-color: rgb(137, 91, 208);
 }
 .grid-item:nth-child(661) {
-  --circle-color: rgb(116, 58, 214);
+  --circle-color: rgb(10, 141, 17);
 }
 .grid-item:nth-child(662) {
-  --circle-color: rgb(255, 241, 251);
+  --circle-color: rgb(185, 140, 120);
 }
 .grid-item:nth-child(663) {
-  --circle-color: rgb(166, 76, 69);
+  --circle-color: rgb(31, 134, 246);
 }
 .grid-item:nth-child(664) {
-  --circle-color: rgb(80, 34, 11);
+  --circle-color: rgb(126, 87, 36);
 }
 .grid-item:nth-child(665) {
-  --circle-color: rgb(44, 150, 16);
+  --circle-color: rgb(191, 86, 171);
 }
 .grid-item:nth-child(666) {
-  --circle-color: rgb(222, 208, 231);
+  --circle-color: rgb(194, 163, 101);
 }
 .grid-item:nth-child(667) {
-  --circle-color: rgb(213, 26, 35);
+  --circle-color: rgb(78, 147, 83);
 }
 .grid-item:nth-child(668) {
-  --circle-color: rgb(250, 16, 46);
+  --circle-color: rgb(243, 3, 128);
 }
 .grid-item:nth-child(669) {
-  --circle-color: rgb(253, 181, 201);
+  --circle-color: rgb(208, 157, 196);
 }
 .grid-item:nth-child(670) {
-  --circle-color: rgb(251, 5, 216);
+  --circle-color: rgb(116, 26, 95);
 }
 .grid-item:nth-child(671) {
-  --circle-color: rgb(236, 206, 73);
+  --circle-color: rgb(37, 28, 48);
 }
 .grid-item:nth-child(672) {
-  --circle-color: rgb(213, 35, 190);
+  --circle-color: rgb(166, 242, 232);
 }
 .grid-item:nth-child(673) {
-  --circle-color: rgb(30, 221, 208);
+  --circle-color: rgb(12, 36, 208);
 }
 .grid-item:nth-child(674) {
-  --circle-color: rgb(221, 63, 201);
+  --circle-color: rgb(150, 37, 248);
 }
 .grid-item:nth-child(675) {
-  --circle-color: rgb(41, 120, 111);
+  --circle-color: rgb(217, 214, 180);
 }
 .grid-item:nth-child(676) {
-  --circle-color: rgb(230, 46, 163);
+  --circle-color: rgb(197, 124, 98);
 }
 .grid-item:nth-child(677) {
-  --circle-color: rgb(87, 28, 233);
+  --circle-color: rgb(100, 247, 171);
 }
 .grid-item:nth-child(678) {
-  --circle-color: rgb(124, 88, 21);
+  --circle-color: rgb(253, 39, 56);
 }
 .grid-item:nth-child(679) {
-  --circle-color: rgb(160, 240, 33);
+  --circle-color: rgb(137, 205, 10);
 }
 .grid-item:nth-child(680) {
-  --circle-color: rgb(19, 76, 98);
+  --circle-color: rgb(217, 138, 229);
 }
 .grid-item:nth-child(681) {
-  --circle-color: rgb(150, 28, 32);
+  --circle-color: rgb(152, 144, 14);
 }
 .grid-item:nth-child(682) {
-  --circle-color: rgb(73, 104, 235);
+  --circle-color: rgb(96, 93, 219);
 }
 .grid-item:nth-child(683) {
-  --circle-color: rgb(98, 78, 47);
+  --circle-color: rgb(198, 76, 72);
 }
 .grid-item:nth-child(684) {
-  --circle-color: rgb(140, 100, 196);
+  --circle-color: rgb(55, 38, 117);
 }
 .grid-item:nth-child(685) {
-  --circle-color: rgb(33, 96, 23);
+  --circle-color: rgb(76, 55, 59);
 }
 .grid-item:nth-child(686) {
-  --circle-color: rgb(62, 184, 9);
+  --circle-color: rgb(137, 76, 60);
 }
 .grid-item:nth-child(687) {
-  --circle-color: rgb(205, 155, 196);
+  --circle-color: rgb(171, 200, 110);
 }
 .grid-item:nth-child(688) {
-  --circle-color: rgb(229, 162, 173);
+  --circle-color: rgb(116, 192, 157);
 }
 .grid-item:nth-child(689) {
-  --circle-color: rgb(73, 170, 249);
+  --circle-color: rgb(42, 53, 101);
 }
 .grid-item:nth-child(690) {
-  --circle-color: rgb(238, 24, 137);
+  --circle-color: rgb(64, 8, 129);
 }
 .grid-item:nth-child(691) {
-  --circle-color: rgb(168, 148, 86);
+  --circle-color: rgb(169, 25, 67);
 }
 .grid-item:nth-child(692) {
-  --circle-color: rgb(193, 117, 233);
+  --circle-color: rgb(4, 7, 251);
 }
 .grid-item:nth-child(693) {
-  --circle-color: rgb(110, 207, 112);
+  --circle-color: rgb(31, 35, 186);
 }
 .grid-item:nth-child(694) {
-  --circle-color: rgb(194, 232, 245);
+  --circle-color: rgb(114, 239, 113);
 }
 .grid-item:nth-child(695) {
-  --circle-color: rgb(16, 191, 179);
+  --circle-color: rgb(26, 203, 244);
 }
 .grid-item:nth-child(696) {
-  --circle-color: rgb(80, 7, 180);
+  --circle-color: rgb(20, 195, 103);
 }
 .grid-item:nth-child(697) {
-  --circle-color: rgb(206, 70, 141);
+  --circle-color: rgb(168, 41, 154);
 }
 .grid-item:nth-child(698) {
-  --circle-color: rgb(204, 98, 134);
+  --circle-color: rgb(38, 164, 70);
 }
 .grid-item:nth-child(699) {
-  --circle-color: rgb(206, 143, 64);
+  --circle-color: rgb(146, 36, 138);
 }
 .grid-item:nth-child(700) {
-  --circle-color: rgb(151, 205, 182);
+  --circle-color: rgb(84, 3, 175);
 }
 .grid-item:nth-child(701) {
-  --circle-color: rgb(227, 141, 252);
+  --circle-color: rgb(182, 137, 244);
 }
 .grid-item:nth-child(702) {
-  --circle-color: rgb(248, 66, 12);
+  --circle-color: rgb(171, 198, 253);
 }
 .grid-item:nth-child(703) {
-  --circle-color: rgb(145, 238, 85);
+  --circle-color: rgb(178, 84, 9);
 }
 .grid-item:nth-child(704) {
-  --circle-color: rgb(186, 138, 220);
+  --circle-color: rgb(42, 121, 198);
 }
 .grid-item:nth-child(705) {
-  --circle-color: rgb(203, 146, 168);
+  --circle-color: rgb(87, 254, 209);
 }
 .grid-item:nth-child(706) {
-  --circle-color: rgb(167, 197, 44);
+  --circle-color: rgb(125, 14, 155);
 }
 .grid-item:nth-child(707) {
-  --circle-color: rgb(125, 81, 12);
+  --circle-color: rgb(64, 230, 10);
 }
 .grid-item:nth-child(708) {
-  --circle-color: rgb(159, 10, 177);
+  --circle-color: rgb(10, 227, 166);
 }
 .grid-item:nth-child(709) {
-  --circle-color: rgb(148, 189, 145);
+  --circle-color: rgb(115, 66, 233);
 }
 .grid-item:nth-child(710) {
-  --circle-color: rgb(52, 254, 103);
+  --circle-color: rgb(134, 102, 106);
 }
 .grid-item:nth-child(711) {
-  --circle-color: rgb(21, 125, 126);
+  --circle-color: rgb(223, 171, 67);
 }
 .grid-item:nth-child(712) {
-  --circle-color: rgb(238, 26, 252);
+  --circle-color: rgb(159, 115, 15);
 }
 .grid-item:nth-child(713) {
-  --circle-color: rgb(29, 205, 65);
+  --circle-color: rgb(184, 93, 95);
 }
 .grid-item:nth-child(714) {
-  --circle-color: rgb(69, 58, 151);
+  --circle-color: rgb(89, 3, 35);
 }
 .grid-item:nth-child(715) {
-  --circle-color: rgb(247, 23, 185);
+  --circle-color: rgb(243, 193, 35);
 }
 .grid-item:nth-child(716) {
-  --circle-color: rgb(234, 224, 216);
+  --circle-color: rgb(150, 143, 87);
 }
 .grid-item:nth-child(717) {
-  --circle-color: rgb(14, 249, 181);
+  --circle-color: rgb(28, 127, 71);
 }
 .grid-item:nth-child(718) {
-  --circle-color: rgb(157, 128, 126);
+  --circle-color: rgb(86, 177, 53);
 }
 .grid-item:nth-child(719) {
-  --circle-color: rgb(230, 103, 237);
+  --circle-color: rgb(134, 165, 137);
 }
 .grid-item:nth-child(720) {
-  --circle-color: rgb(67, 154, 40);
+  --circle-color: rgb(168, 110, 165);
 }
 .grid-item:nth-child(721) {
-  --circle-color: rgb(159, 131, 131);
+  --circle-color: rgb(108, 163, 41);
 }
 .grid-item:nth-child(722) {
-  --circle-color: rgb(58, 36, 134);
+  --circle-color: rgb(66, 86, 205);
 }
 .grid-item:nth-child(723) {
-  --circle-color: rgb(170, 250, 168);
+  --circle-color: rgb(38, 142, 254);
 }
 .grid-item:nth-child(724) {
-  --circle-color: rgb(145, 167, 221);
+  --circle-color: rgb(13, 213, 9);
 }
 .grid-item:nth-child(725) {
-  --circle-color: rgb(210, 34, 118);
+  --circle-color: rgb(81, 92, 187);
 }
 .grid-item:nth-child(726) {
-  --circle-color: rgb(72, 82, 142);
+  --circle-color: rgb(3, 60, 61);
 }
 .grid-item:nth-child(727) {
-  --circle-color: rgb(54, 73, 125);
+  --circle-color: rgb(13, 72, 88);
 }
 .grid-item:nth-child(728) {
-  --circle-color: rgb(109, 69, 164);
+  --circle-color: rgb(133, 24, 15);
 }
 .grid-item:nth-child(729) {
-  --circle-color: rgb(218, 87, 251);
+  --circle-color: rgb(205, 159, 234);
 }
 .grid-item:nth-child(730) {
-  --circle-color: rgb(44, 125, 3);
+  --circle-color: rgb(244, 151, 252);
 }
 .grid-item:nth-child(731) {
-  --circle-color: rgb(114, 211, 67);
+  --circle-color: rgb(194, 14, 234);
 }
 .grid-item:nth-child(732) {
-  --circle-color: rgb(147, 126, 232);
+  --circle-color: rgb(135, 187, 55);
 }
 .grid-item:nth-child(733) {
-  --circle-color: rgb(138, 239, 251);
+  --circle-color: rgb(24, 247, 203);
 }
 .grid-item:nth-child(734) {
-  --circle-color: rgb(81, 52, 61);
+  --circle-color: rgb(111, 161, 39);
 }
 .grid-item:nth-child(735) {
-  --circle-color: rgb(44, 22, 102);
+  --circle-color: rgb(131, 122, 96);
 }
 .grid-item:nth-child(736) {
-  --circle-color: rgb(158, 86, 71);
+  --circle-color: rgb(127, 29, 199);
 }
 .grid-item:nth-child(737) {
-  --circle-color: rgb(37, 243, 75);
+  --circle-color: rgb(190, 15, 24);
 }
 .grid-item:nth-child(738) {
-  --circle-color: rgb(233, 236, 12);
+  --circle-color: rgb(243, 29, 43);
 }
 .grid-item:nth-child(739) {
-  --circle-color: rgb(119, 135, 136);
+  --circle-color: rgb(213, 111, 181);
 }
 .grid-item:nth-child(740) {
-  --circle-color: rgb(116, 84, 87);
+  --circle-color: rgb(135, 15, 106);
 }
 .grid-item:nth-child(741) {
-  --circle-color: rgb(53, 254, 33);
+  --circle-color: rgb(222, 199, 187);
 }
 .grid-item:nth-child(742) {
-  --circle-color: rgb(97, 10, 49);
+  --circle-color: rgb(148, 209, 53);
 }
 .grid-item:nth-child(743) {
-  --circle-color: rgb(122, 134, 148);
+  --circle-color: rgb(200, 61, 207);
 }
 .grid-item:nth-child(744) {
-  --circle-color: rgb(60, 162, 166);
+  --circle-color: rgb(63, 75, 120);
 }
 .grid-item:nth-child(745) {
-  --circle-color: rgb(125, 214, 231);
+  --circle-color: rgb(100, 50, 103);
 }
 .grid-item:nth-child(746) {
-  --circle-color: rgb(224, 110, 199);
+  --circle-color: rgb(151, 136, 232);
 }
 .grid-item:nth-child(747) {
-  --circle-color: rgb(207, 235, 49);
+  --circle-color: rgb(92, 188, 62);
 }
 .grid-item:nth-child(748) {
-  --circle-color: rgb(180, 201, 234);
+  --circle-color: rgb(247, 207, 143);
 }
 .grid-item:nth-child(749) {
-  --circle-color: rgb(178, 164, 33);
+  --circle-color: rgb(50, 9, 86);
 }
 .grid-item:nth-child(750) {
-  --circle-color: rgb(47, 180, 58);
+  --circle-color: rgb(144, 172, 161);
 }
 .grid-item:nth-child(751) {
-  --circle-color: rgb(210, 76, 75);
+  --circle-color: rgb(143, 106, 45);
 }
 .grid-item:nth-child(752) {
-  --circle-color: rgb(87, 17, 252);
+  --circle-color: rgb(58, 98, 128);
 }
 .grid-item:nth-child(753) {
-  --circle-color: rgb(224, 20, 8);
+  --circle-color: rgb(172, 193, 68);
 }
 .grid-item:nth-child(754) {
-  --circle-color: rgb(161, 170, 115);
+  --circle-color: rgb(57, 153, 231);
 }
 .grid-item:nth-child(755) {
-  --circle-color: rgb(143, 112, 66);
+  --circle-color: rgb(1, 65, 135);
 }
 .grid-item:nth-child(756) {
-  --circle-color: rgb(102, 11, 247);
+  --circle-color: rgb(56, 63, 63);
 }
 .grid-item:nth-child(757) {
-  --circle-color: rgb(195, 142, 222);
+  --circle-color: rgb(150, 39, 145);
 }
 .grid-item:nth-child(758) {
-  --circle-color: rgb(208, 101, 194);
+  --circle-color: rgb(100, 67, 127);
 }
 .grid-item:nth-child(759) {
-  --circle-color: rgb(160, 217, 173);
+  --circle-color: rgb(12, 179, 27);
 }
 .grid-item:nth-child(760) {
-  --circle-color: rgb(186, 40, 69);
+  --circle-color: rgb(59, 94, 118);
 }
 .grid-item:nth-child(761) {
-  --circle-color: rgb(187, 29, 169);
+  --circle-color: rgb(89, 53, 23);
 }
 .grid-item:nth-child(762) {
-  --circle-color: rgb(160, 75, 30);
+  --circle-color: rgb(118, 28, 233);
 }
 .grid-item:nth-child(763) {
-  --circle-color: rgb(143, 128, 24);
+  --circle-color: rgb(190, 238, 76);
 }
 .grid-item:nth-child(764) {
-  --circle-color: rgb(90, 168, 26);
+  --circle-color: rgb(151, 35, 96);
 }
 .grid-item:nth-child(765) {
-  --circle-color: rgb(237, 36, 238);
+  --circle-color: rgb(193, 29, 97);
 }
 .grid-item:nth-child(766) {
-  --circle-color: rgb(207, 169, 202);
+  --circle-color: rgb(43, 99, 204);
 }
 .grid-item:nth-child(767) {
-  --circle-color: rgb(181, 142, 230);
+  --circle-color: rgb(22, 13, 51);
 }
 .grid-item:nth-child(768) {
-  --circle-color: rgb(88, 75, 224);
+  --circle-color: rgb(249, 193, 124);
 }
 .grid-item:nth-child(769) {
-  --circle-color: rgb(134, 233, 82);
+  --circle-color: rgb(209, 250, 181);
 }
 .grid-item:nth-child(770) {
-  --circle-color: rgb(150, 133, 203);
+  --circle-color: rgb(183, 70, 188);
 }
 .grid-item:nth-child(771) {
-  --circle-color: rgb(1, 95, 153);
+  --circle-color: rgb(139, 48, 236);
 }
 .grid-item:nth-child(772) {
-  --circle-color: rgb(21, 128, 30);
+  --circle-color: rgb(32, 169, 155);
 }
 .grid-item:nth-child(773) {
-  --circle-color: rgb(23, 175, 116);
+  --circle-color: rgb(124, 229, 179);
 }
 .grid-item:nth-child(774) {
-  --circle-color: rgb(102, 111, 189);
+  --circle-color: rgb(88, 245, 107);
 }
 .grid-item:nth-child(775) {
-  --circle-color: rgb(110, 29, 170);
+  --circle-color: rgb(120, 126, 102);
 }
 .grid-item:nth-child(776) {
-  --circle-color: rgb(242, 53, 184);
+  --circle-color: rgb(75, 209, 17);
 }
 .grid-item:nth-child(777) {
-  --circle-color: rgb(255, 77, 155);
+  --circle-color: rgb(192, 158, 123);
 }
 .grid-item:nth-child(778) {
-  --circle-color: rgb(152, 115, 113);
+  --circle-color: rgb(116, 208, 7);
 }
 .grid-item:nth-child(779) {
-  --circle-color: rgb(178, 239, 247);
+  --circle-color: rgb(152, 100, 8);
 }
 .grid-item:nth-child(780) {
-  --circle-color: rgb(169, 114, 12);
+  --circle-color: rgb(72, 172, 204);
 }
 .grid-item:nth-child(781) {
-  --circle-color: rgb(35, 199, 149);
+  --circle-color: rgb(124, 80, 242);
 }
 .grid-item:nth-child(782) {
-  --circle-color: rgb(107, 251, 171);
+  --circle-color: rgb(119, 151, 237);
 }
 .grid-item:nth-child(783) {
-  --circle-color: rgb(117, 216, 207);
+  --circle-color: rgb(219, 120, 146);
 }
 .grid-item:nth-child(784) {
-  --circle-color: rgb(227, 131, 149);
+  --circle-color: rgb(35, 14, 240);
 }
 .grid-item:nth-child(785) {
-  --circle-color: rgb(28, 6, 80);
+  --circle-color: rgb(240, 8, 93);
 }
 .grid-item:nth-child(786) {
-  --circle-color: rgb(191, 227, 71);
+  --circle-color: rgb(56, 112, 205);
 }
 .grid-item:nth-child(787) {
-  --circle-color: rgb(200, 7, 51);
+  --circle-color: rgb(144, 91, 243);
 }
 .grid-item:nth-child(788) {
-  --circle-color: rgb(121, 214, 100);
+  --circle-color: rgb(91, 248, 134);
 }
 .grid-item:nth-child(789) {
-  --circle-color: rgb(29, 233, 88);
+  --circle-color: rgb(152, 34, 68);
 }
 .grid-item:nth-child(790) {
-  --circle-color: rgb(127, 212, 66);
+  --circle-color: rgb(139, 195, 5);
 }
 .grid-item:nth-child(791) {
-  --circle-color: rgb(84, 223, 180);
+  --circle-color: rgb(41, 172, 139);
 }
 .grid-item:nth-child(792) {
-  --circle-color: rgb(212, 5, 230);
+  --circle-color: rgb(3, 54, 201);
 }
 .grid-item:nth-child(793) {
-  --circle-color: rgb(145, 12, 197);
+  --circle-color: rgb(252, 19, 67);
 }
 .grid-item:nth-child(794) {
-  --circle-color: rgb(102, 147, 84);
+  --circle-color: rgb(74, 69, 186);
 }
 .grid-item:nth-child(795) {
-  --circle-color: rgb(24, 138, 166);
+  --circle-color: rgb(197, 73, 143);
 }
 .grid-item:nth-child(796) {
-  --circle-color: rgb(13, 13, 88);
+  --circle-color: rgb(113, 81, 248);
 }
 .grid-item:nth-child(797) {
-  --circle-color: rgb(115, 246, 164);
+  --circle-color: rgb(239, 7, 101);
 }
 .grid-item:nth-child(798) {
-  --circle-color: rgb(183, 105, 7);
+  --circle-color: rgb(26, 37, 179);
 }
 .grid-item:nth-child(799) {
-  --circle-color: rgb(180, 27, 96);
+  --circle-color: rgb(39, 60, 163);
 }
 .grid-item:nth-child(800) {
-  --circle-color: rgb(111, 90, 127);
+  --circle-color: rgb(115, 119, 66);
 }
 .grid-item:nth-child(801) {
-  --circle-color: rgb(199, 177, 245);
+  --circle-color: rgb(93, 99, 46);
 }
 .grid-item:nth-child(802) {
-  --circle-color: rgb(152, 15, 11);
+  --circle-color: rgb(209, 60, 149);
 }
 .grid-item:nth-child(803) {
-  --circle-color: rgb(140, 189, 250);
+  --circle-color: rgb(163, 173, 181);
 }
 .grid-item:nth-child(804) {
-  --circle-color: rgb(241, 67, 193);
+  --circle-color: rgb(89, 178, 149);
 }
 .grid-item:nth-child(805) {
-  --circle-color: rgb(86, 200, 143);
+  --circle-color: rgb(72, 242, 118);
 }
 .grid-item:nth-child(806) {
-  --circle-color: rgb(109, 106, 4);
+  --circle-color: rgb(38, 94, 148);
 }
 .grid-item:nth-child(807) {
-  --circle-color: rgb(219, 74, 232);
+  --circle-color: rgb(71, 113, 246);
 }
 .grid-item:nth-child(808) {
-  --circle-color: rgb(188, 223, 62);
+  --circle-color: rgb(183, 19, 114);
 }
 .grid-item:nth-child(809) {
-  --circle-color: rgb(205, 141, 249);
+  --circle-color: rgb(155, 52, 213);
 }
 .grid-item:nth-child(810) {
-  --circle-color: rgb(87, 129, 242);
+  --circle-color: rgb(76, 216, 16);
 }
 .grid-item:nth-child(811) {
-  --circle-color: rgb(145, 160, 164);
+  --circle-color: rgb(76, 174, 123);
 }
 .grid-item:nth-child(812) {
-  --circle-color: rgb(226, 62, 175);
+  --circle-color: rgb(72, 149, 15);
 }
 .grid-item:nth-child(813) {
-  --circle-color: rgb(206, 71, 202);
+  --circle-color: rgb(237, 6, 79);
 }
 .grid-item:nth-child(814) {
-  --circle-color: rgb(177, 75, 192);
+  --circle-color: rgb(48, 88, 173);
 }
 .grid-item:nth-child(815) {
-  --circle-color: rgb(71, 109, 6);
+  --circle-color: rgb(235, 34, 251);
 }
 .grid-item:nth-child(816) {
-  --circle-color: rgb(253, 230, 140);
+  --circle-color: rgb(226, 152, 134);
 }
 .grid-item:nth-child(817) {
-  --circle-color: rgb(125, 241, 205);
+  --circle-color: rgb(95, 224, 247);
 }
 .grid-item:nth-child(818) {
-  --circle-color: rgb(50, 184, 55);
+  --circle-color: rgb(165, 101, 158);
 }
 .grid-item:nth-child(819) {
-  --circle-color: rgb(206, 117, 193);
+  --circle-color: rgb(59, 212, 181);
 }
 .grid-item:nth-child(820) {
-  --circle-color: rgb(21, 202, 79);
+  --circle-color: rgb(221, 183, 118);
 }
 .grid-item:nth-child(821) {
-  --circle-color: rgb(32, 155, 254);
+  --circle-color: rgb(185, 109, 103);
 }
 .grid-item:nth-child(822) {
-  --circle-color: rgb(152, 218, 6);
+  --circle-color: rgb(224, 157, 40);
 }
 .grid-item:nth-child(823) {
-  --circle-color: rgb(198, 124, 55);
+  --circle-color: rgb(5, 154, 66);
 }
 .grid-item:nth-child(824) {
-  --circle-color: rgb(171, 95, 254);
+  --circle-color: rgb(158, 236, 219);
 }
 .grid-item:nth-child(825) {
-  --circle-color: rgb(195, 206, 251);
+  --circle-color: rgb(212, 253, 91);
 }
 .grid-item:nth-child(826) {
-  --circle-color: rgb(89, 185, 44);
+  --circle-color: rgb(52, 157, 237);
 }
 .grid-item:nth-child(827) {
-  --circle-color: rgb(31, 153, 94);
+  --circle-color: rgb(136, 205, 187);
 }
 .grid-item:nth-child(828) {
-  --circle-color: rgb(82, 91, 194);
+  --circle-color: rgb(200, 82, 63);
 }
 .grid-item:nth-child(829) {
-  --circle-color: rgb(71, 57, 231);
+  --circle-color: rgb(168, 186, 146);
 }
 .grid-item:nth-child(830) {
-  --circle-color: rgb(232, 242, 152);
+  --circle-color: rgb(136, 28, 235);
 }
 .grid-item:nth-child(831) {
-  --circle-color: rgb(246, 197, 149);
+  --circle-color: rgb(166, 110, 243);
 }
 .grid-item:nth-child(832) {
-  --circle-color: rgb(147, 193, 58);
+  --circle-color: rgb(26, 16, 177);
 }
 .grid-item:nth-child(833) {
-  --circle-color: rgb(87, 95, 25);
+  --circle-color: rgb(128, 90, 234);
 }
 .grid-item:nth-child(834) {
-  --circle-color: rgb(243, 95, 226);
+  --circle-color: rgb(69, 232, 4);
 }
 .grid-item:nth-child(835) {
-  --circle-color: rgb(192, 22, 175);
+  --circle-color: rgb(209, 21, 213);
 }
 .grid-item:nth-child(836) {
-  --circle-color: rgb(222, 53, 164);
+  --circle-color: rgb(154, 134, 156);
 }
 .grid-item:nth-child(837) {
-  --circle-color: rgb(212, 244, 243);
+  --circle-color: rgb(8, 96, 8);
 }
 .grid-item:nth-child(838) {
-  --circle-color: rgb(40, 103, 233);
+  --circle-color: rgb(153, 200, 253);
 }
 .grid-item:nth-child(839) {
-  --circle-color: rgb(66, 53, 146);
+  --circle-color: rgb(156, 176, 6);
 }
 .grid-item:nth-child(840) {
-  --circle-color: rgb(200, 38, 27);
+  --circle-color: rgb(134, 171, 196);
 }
 .grid-item:nth-child(841) {
-  --circle-color: rgb(26, 253, 104);
+  --circle-color: rgb(57, 166, 233);
 }
 .grid-item:nth-child(842) {
-  --circle-color: rgb(122, 87, 149);
+  --circle-color: rgb(20, 134, 142);
 }
 .grid-item:nth-child(843) {
-  --circle-color: rgb(185, 97, 87);
+  --circle-color: rgb(244, 135, 145);
 }
 .grid-item:nth-child(844) {
-  --circle-color: rgb(192, 178, 31);
+  --circle-color: rgb(171, 197, 167);
 }
 .grid-item:nth-child(845) {
-  --circle-color: rgb(176, 92, 142);
+  --circle-color: rgb(147, 50, 239);
 }
 .grid-item:nth-child(846) {
-  --circle-color: rgb(69, 111, 208);
+  --circle-color: rgb(11, 224, 218);
 }
 .grid-item:nth-child(847) {
-  --circle-color: rgb(10, 160, 63);
+  --circle-color: rgb(83, 189, 108);
 }
 .grid-item:nth-child(848) {
-  --circle-color: rgb(52, 101, 61);
+  --circle-color: rgb(137, 49, 237);
 }
 .grid-item:nth-child(849) {
-  --circle-color: rgb(57, 135, 186);
+  --circle-color: rgb(52, 172, 250);
 }
 .grid-item:nth-child(850) {
-  --circle-color: rgb(240, 60, 142);
+  --circle-color: rgb(219, 96, 156);
 }
 .grid-item:nth-child(851) {
-  --circle-color: rgb(128, 228, 185);
+  --circle-color: rgb(40, 189, 213);
 }
 .grid-item:nth-child(852) {
-  --circle-color: rgb(254, 206, 228);
+  --circle-color: rgb(45, 36, 57);
 }
 .grid-item:nth-child(853) {
-  --circle-color: rgb(227, 64, 219);
+  --circle-color: rgb(200, 134, 175);
 }
 .grid-item:nth-child(854) {
-  --circle-color: rgb(110, 222, 82);
+  --circle-color: rgb(246, 103, 179);
 }
 .grid-item:nth-child(855) {
-  --circle-color: rgb(253, 169, 81);
+  --circle-color: rgb(166, 35, 187);
 }
 .grid-item:nth-child(856) {
-  --circle-color: rgb(4, 167, 107);
+  --circle-color: rgb(221, 232, 79);
 }
 .grid-item:nth-child(857) {
-  --circle-color: rgb(234, 199, 153);
+  --circle-color: rgb(108, 213, 201);
 }
 .grid-item:nth-child(858) {
-  --circle-color: rgb(101, 244, 191);
+  --circle-color: rgb(113, 186, 52);
 }
 .grid-item:nth-child(859) {
-  --circle-color: rgb(141, 27, 232);
+  --circle-color: rgb(182, 94, 39);
 }
 .grid-item:nth-child(860) {
-  --circle-color: rgb(12, 4, 136);
+  --circle-color: rgb(254, 140, 70);
 }
 .grid-item:nth-child(861) {
-  --circle-color: rgb(123, 35, 211);
+  --circle-color: rgb(113, 95, 214);
 }
 .grid-item:nth-child(862) {
-  --circle-color: rgb(17, 146, 229);
+  --circle-color: rgb(237, 241, 75);
 }
 .grid-item:nth-child(863) {
-  --circle-color: rgb(210, 132, 3);
+  --circle-color: rgb(204, 152, 52);
 }
 .grid-item:nth-child(864) {
-  --circle-color: rgb(161, 128, 109);
+  --circle-color: rgb(139, 68, 81);
 }
 .grid-item:nth-child(865) {
-  --circle-color: rgb(206, 68, 222);
+  --circle-color: rgb(150, 97, 69);
 }
 .grid-item:nth-child(866) {
-  --circle-color: rgb(237, 109, 98);
+  --circle-color: rgb(62, 35, 193);
 }
 .grid-item:nth-child(867) {
-  --circle-color: rgb(14, 79, 35);
+  --circle-color: rgb(6, 146, 32);
 }
 .grid-item:nth-child(868) {
-  --circle-color: rgb(157, 28, 47);
+  --circle-color: rgb(69, 137, 226);
 }
 .grid-item:nth-child(869) {
-  --circle-color: rgb(146, 192, 62);
+  --circle-color: rgb(101, 186, 195);
 }
 .grid-item:nth-child(870) {
-  --circle-color: rgb(139, 120, 211);
+  --circle-color: rgb(207, 16, 110);
 }
 .grid-item:nth-child(871) {
-  --circle-color: rgb(253, 76, 51);
+  --circle-color: rgb(214, 5, 231);
 }
 .grid-item:nth-child(872) {
-  --circle-color: rgb(172, 17, 155);
+  --circle-color: rgb(166, 42, 146);
 }
 .grid-item:nth-child(873) {
-  --circle-color: rgb(84, 95, 165);
+  --circle-color: rgb(102, 182, 17);
 }
 .grid-item:nth-child(874) {
-  --circle-color: rgb(109, 178, 236);
+  --circle-color: rgb(8, 124, 245);
 }
 .grid-item:nth-child(875) {
-  --circle-color: rgb(24, 130, 162);
+  --circle-color: rgb(73, 245, 190);
 }
 .grid-item:nth-child(876) {
-  --circle-color: rgb(176, 92, 244);
+  --circle-color: rgb(218, 248, 107);
 }
 .grid-item:nth-child(877) {
-  --circle-color: rgb(34, 31, 175);
+  --circle-color: rgb(250, 247, 111);
 }
 .grid-item:nth-child(878) {
-  --circle-color: rgb(167, 118, 39);
+  --circle-color: rgb(22, 90, 235);
 }
 .grid-item:nth-child(879) {
-  --circle-color: rgb(231, 181, 194);
+  --circle-color: rgb(21, 57, 23);
 }
 .grid-item:nth-child(880) {
-  --circle-color: rgb(204, 72, 75);
+  --circle-color: rgb(224, 169, 47);
 }
 .grid-item:nth-child(881) {
-  --circle-color: rgb(238, 44, 54);
+  --circle-color: rgb(42, 109, 81);
 }
 .grid-item:nth-child(882) {
-  --circle-color: rgb(42, 230, 35);
+  --circle-color: rgb(45, 244, 175);
 }
 .grid-item:nth-child(883) {
-  --circle-color: rgb(204, 145, 75);
+  --circle-color: rgb(253, 15, 23);
 }
 .grid-item:nth-child(884) {
-  --circle-color: rgb(24, 198, 67);
+  --circle-color: rgb(207, 223, 71);
 }
 .grid-item:nth-child(885) {
-  --circle-color: rgb(10, 7, 24);
+  --circle-color: rgb(227, 162, 117);
 }
 .grid-item:nth-child(886) {
-  --circle-color: rgb(111, 99, 46);
+  --circle-color: rgb(62, 120, 27);
 }
 .grid-item:nth-child(887) {
-  --circle-color: rgb(68, 39, 130);
+  --circle-color: rgb(65, 6, 252);
 }
 .grid-item:nth-child(888) {
-  --circle-color: rgb(9, 26, 129);
+  --circle-color: rgb(208, 7, 126);
 }
 .grid-item:nth-child(889) {
-  --circle-color: rgb(92, 185, 191);
+  --circle-color: rgb(171, 138, 170);
 }
 .grid-item:nth-child(890) {
-  --circle-color: rgb(82, 99, 235);
+  --circle-color: rgb(127, 106, 113);
 }
 .grid-item:nth-child(891) {
-  --circle-color: rgb(234, 6, 65);
+  --circle-color: rgb(79, 203, 87);
 }
 .grid-item:nth-child(892) {
-  --circle-color: rgb(240, 253, 177);
+  --circle-color: rgb(144, 219, 213);
 }
 .grid-item:nth-child(893) {
-  --circle-color: rgb(255, 95, 192);
+  --circle-color: rgb(173, 197, 19);
 }
 .grid-item:nth-child(894) {
-  --circle-color: rgb(204, 142, 107);
+  --circle-color: rgb(158, 190, 167);
 }
 .grid-item:nth-child(895) {
-  --circle-color: rgb(96, 40, 173);
+  --circle-color: rgb(85, 137, 155);
 }
 .grid-item:nth-child(896) {
-  --circle-color: rgb(219, 23, 70);
+  --circle-color: rgb(166, 40, 8);
 }
 .grid-item:nth-child(897) {
-  --circle-color: rgb(62, 234, 153);
+  --circle-color: rgb(10, 26, 61);
 }
 .grid-item:nth-child(898) {
-  --circle-color: rgb(64, 208, 21);
+  --circle-color: rgb(251, 65, 9);
 }
 .grid-item:nth-child(899) {
-  --circle-color: rgb(21, 223, 140);
+  --circle-color: rgb(58, 121, 172);
 }
 .grid-item:nth-child(900) {
-  --circle-color: rgb(164, 190, 109);
+  --circle-color: rgb(168, 70, 244);
 }
 .grid-item:nth-child(901) {
-  --circle-color: rgb(151, 250, 7);
+  --circle-color: rgb(168, 100, 184);
 }
 .grid-item:nth-child(902) {
-  --circle-color: rgb(116, 80, 56);
+  --circle-color: rgb(149, 214, 220);
 }
 .grid-item:nth-child(903) {
-  --circle-color: rgb(38, 16, 40);
+  --circle-color: rgb(109, 215, 1);
 }
 .grid-item:nth-child(904) {
-  --circle-color: rgb(145, 233, 238);
+  --circle-color: rgb(119, 191, 159);
 }
 .grid-item:nth-child(905) {
-  --circle-color: rgb(255, 72, 49);
+  --circle-color: rgb(193, 16, 158);
 }
 .grid-item:nth-child(906) {
-  --circle-color: rgb(120, 193, 97);
+  --circle-color: rgb(143, 144, 112);
 }
 .grid-item:nth-child(907) {
-  --circle-color: rgb(218, 59, 223);
+  --circle-color: rgb(138, 208, 132);
 }
 .grid-item:nth-child(908) {
-  --circle-color: rgb(245, 180, 106);
+  --circle-color: rgb(111, 255, 157);
 }
 .grid-item:nth-child(909) {
-  --circle-color: rgb(178, 117, 49);
+  --circle-color: rgb(239, 29, 202);
 }
 .grid-item:nth-child(910) {
-  --circle-color: rgb(167, 39, 208);
+  --circle-color: rgb(90, 199, 93);
 }
 .grid-item:nth-child(911) {
-  --circle-color: rgb(45, 234, 116);
+  --circle-color: rgb(122, 177, 241);
 }
 .grid-item:nth-child(912) {
-  --circle-color: rgb(190, 182, 164);
+  --circle-color: rgb(78, 153, 176);
 }
 .grid-item:nth-child(913) {
-  --circle-color: rgb(25, 204, 30);
+  --circle-color: rgb(84, 145, 43);
 }
 .grid-item:nth-child(914) {
-  --circle-color: rgb(243, 73, 130);
+  --circle-color: rgb(215, 161, 79);
 }
 .grid-item:nth-child(915) {
-  --circle-color: rgb(114, 97, 38);
+  --circle-color: rgb(136, 76, 132);
 }
 .grid-item:nth-child(916) {
-  --circle-color: rgb(83, 203, 3);
+  --circle-color: rgb(181, 223, 137);
 }
 .grid-item:nth-child(917) {
-  --circle-color: rgb(202, 214, 255);
+  --circle-color: rgb(171, 98, 234);
 }
 .grid-item:nth-child(918) {
-  --circle-color: rgb(219, 67, 66);
+  --circle-color: rgb(186, 118, 53);
 }
 .grid-item:nth-child(919) {
-  --circle-color: rgb(105, 16, 158);
+  --circle-color: rgb(220, 25, 104);
 }
 .grid-item:nth-child(920) {
-  --circle-color: rgb(22, 199, 126);
+  --circle-color: rgb(220, 112, 99);
 }
 .grid-item:nth-child(921) {
-  --circle-color: rgb(114, 233, 5);
+  --circle-color: rgb(72, 28, 187);
 }
 .grid-item:nth-child(922) {
-  --circle-color: rgb(38, 123, 117);
+  --circle-color: rgb(213, 229, 163);
 }
 .grid-item:nth-child(923) {
-  --circle-color: rgb(243, 236, 13);
+  --circle-color: rgb(15, 229, 196);
 }
 .grid-item:nth-child(924) {
-  --circle-color: rgb(169, 36, 182);
+  --circle-color: rgb(231, 39, 80);
 }
 .grid-item:nth-child(925) {
-  --circle-color: rgb(221, 182, 77);
+  --circle-color: rgb(100, 12, 221);
 }
 .grid-item:nth-child(926) {
-  --circle-color: rgb(39, 134, 215);
+  --circle-color: rgb(146, 80, 31);
 }
 .grid-item:nth-child(927) {
-  --circle-color: rgb(212, 111, 192);
+  --circle-color: rgb(67, 214, 170);
 }
 .grid-item:nth-child(928) {
-  --circle-color: rgb(50, 32, 99);
+  --circle-color: rgb(1, 33, 192);
 }
 .grid-item:nth-child(929) {
-  --circle-color: rgb(15, 148, 172);
+  --circle-color: rgb(45, 44, 181);
 }
 .grid-item:nth-child(930) {
-  --circle-color: rgb(133, 184, 252);
+  --circle-color: rgb(18, 137, 141);
 }
 .grid-item:nth-child(931) {
-  --circle-color: rgb(89, 224, 100);
+  --circle-color: rgb(4, 18, 154);
 }
 .grid-item:nth-child(932) {
-  --circle-color: rgb(174, 117, 70);
+  --circle-color: rgb(164, 195, 185);
 }
 .grid-item:nth-child(933) {
-  --circle-color: rgb(201, 219, 154);
+  --circle-color: rgb(116, 195, 2);
 }
 .grid-item:nth-child(934) {
-  --circle-color: rgb(33, 121, 219);
+  --circle-color: rgb(72, 209, 141);
 }
 .grid-item:nth-child(935) {
-  --circle-color: rgb(112, 184, 48);
+  --circle-color: rgb(114, 94, 116);
 }
 .grid-item:nth-child(936) {
-  --circle-color: rgb(37, 177, 48);
+  --circle-color: rgb(35, 82, 206);
 }
 .grid-item:nth-child(937) {
-  --circle-color: rgb(232, 49, 193);
+  --circle-color: rgb(163, 163, 20);
 }
 .grid-item:nth-child(938) {
-  --circle-color: rgb(156, 91, 49);
+  --circle-color: rgb(224, 245, 109);
 }
 .grid-item:nth-child(939) {
-  --circle-color: rgb(221, 163, 211);
+  --circle-color: rgb(153, 56, 242);
 }
 .grid-item:nth-child(940) {
-  --circle-color: rgb(69, 99, 103);
+  --circle-color: rgb(173, 50, 69);
 }
 .grid-item:nth-child(941) {
-  --circle-color: rgb(129, 204, 147);
+  --circle-color: rgb(255, 89, 105);
 }
 .grid-item:nth-child(942) {
-  --circle-color: rgb(193, 3, 49);
+  --circle-color: rgb(169, 162, 71);
 }
 .grid-item:nth-child(943) {
-  --circle-color: rgb(55, 43, 213);
+  --circle-color: rgb(135, 83, 222);
 }
 .grid-item:nth-child(944) {
-  --circle-color: rgb(100, 39, 102);
+  --circle-color: rgb(118, 147, 94);
 }
 .grid-item:nth-child(945) {
-  --circle-color: rgb(229, 190, 152);
+  --circle-color: rgb(8, 185, 85);
 }
 .grid-item:nth-child(946) {
-  --circle-color: rgb(123, 115, 214);
+  --circle-color: rgb(232, 144, 63);
 }
 .grid-item:nth-child(947) {
-  --circle-color: rgb(123, 142, 236);
+  --circle-color: rgb(235, 229, 231);
 }
 .grid-item:nth-child(948) {
-  --circle-color: rgb(188, 200, 144);
+  --circle-color: rgb(33, 70, 49);
 }
 .grid-item:nth-child(949) {
-  --circle-color: rgb(37, 239, 41);
+  --circle-color: rgb(205, 52, 86);
 }
 .grid-item:nth-child(950) {
-  --circle-color: rgb(76, 165, 92);
+  --circle-color: rgb(43, 47, 54);
 }
 .grid-item:nth-child(951) {
-  --circle-color: rgb(99, 139, 184);
+  --circle-color: rgb(59, 51, 88);
 }
 .grid-item:nth-child(952) {
-  --circle-color: rgb(179, 6, 6);
+  --circle-color: rgb(242, 229, 73);
 }
 .grid-item:nth-child(953) {
-  --circle-color: rgb(179, 83, 97);
+  --circle-color: rgb(138, 192, 121);
 }
 .grid-item:nth-child(954) {
-  --circle-color: rgb(31, 52, 51);
+  --circle-color: rgb(163, 23, 181);
 }
 .grid-item:nth-child(955) {
-  --circle-color: rgb(15, 78, 138);
+  --circle-color: rgb(122, 179, 248);
 }
 .grid-item:nth-child(956) {
-  --circle-color: rgb(53, 200, 108);
+  --circle-color: rgb(186, 95, 7);
 }
 .grid-item:nth-child(957) {
-  --circle-color: rgb(102, 98, 84);
+  --circle-color: rgb(212, 87, 247);
 }
 .grid-item:nth-child(958) {
-  --circle-color: rgb(116, 84, 28);
+  --circle-color: rgb(155, 91, 20);
 }
 .grid-item:nth-child(959) {
-  --circle-color: rgb(95, 81, 225);
+  --circle-color: rgb(118, 108, 113);
 }
 .grid-item:nth-child(960) {
-  --circle-color: rgb(193, 200, 148);
+  --circle-color: rgb(193, 204, 7);
 }
 .grid-item:nth-child(961) {
-  --circle-color: rgb(240, 221, 73);
+  --circle-color: rgb(181, 92, 9);
 }
 .grid-item:nth-child(962) {
-  --circle-color: rgb(89, 94, 137);
+  --circle-color: rgb(12, 201, 202);
 }
 .grid-item:nth-child(963) {
-  --circle-color: rgb(217, 95, 123);
+  --circle-color: rgb(78, 147, 91);
 }
 .grid-item:nth-child(964) {
-  --circle-color: rgb(196, 106, 181);
+  --circle-color: rgb(77, 205, 24);
 }
 .grid-item:nth-child(965) {
-  --circle-color: rgb(111, 243, 146);
+  --circle-color: rgb(225, 168, 205);
 }
 .grid-item:nth-child(966) {
-  --circle-color: rgb(11, 124, 238);
+  --circle-color: rgb(30, 69, 194);
 }
 .grid-item:nth-child(967) {
-  --circle-color: rgb(209, 6, 22);
+  --circle-color: rgb(200, 96, 195);
 }
 .grid-item:nth-child(968) {
-  --circle-color: rgb(9, 140, 131);
+  --circle-color: rgb(9, 109, 61);
 }
 .grid-item:nth-child(969) {
-  --circle-color: rgb(16, 30, 222);
+  --circle-color: rgb(119, 241, 63);
 }
 .grid-item:nth-child(970) {
-  --circle-color: rgb(237, 39, 43);
+  --circle-color: rgb(168, 44, 6);
 }
 .grid-item:nth-child(971) {
-  --circle-color: rgb(125, 150, 74);
+  --circle-color: rgb(21, 239, 208);
 }
 .grid-item:nth-child(972) {
-  --circle-color: rgb(98, 38, 209);
+  --circle-color: rgb(146, 182, 72);
 }
 .grid-item:nth-child(973) {
-  --circle-color: rgb(158, 230, 38);
+  --circle-color: rgb(190, 68, 2);
 }
 .grid-item:nth-child(974) {
-  --circle-color: rgb(201, 159, 201);
+  --circle-color: rgb(125, 177, 46);
 }
 .grid-item:nth-child(975) {
-  --circle-color: rgb(118, 53, 159);
+  --circle-color: rgb(21, 88, 180);
 }
 .grid-item:nth-child(976) {
-  --circle-color: rgb(17, 69, 119);
+  --circle-color: rgb(37, 83, 122);
 }
 .grid-item:nth-child(977) {
-  --circle-color: rgb(5, 75, 36);
+  --circle-color: rgb(174, 36, 220);
 }
 .grid-item:nth-child(978) {
-  --circle-color: rgb(249, 8, 167);
+  --circle-color: rgb(247, 7, 130);
 }
 .grid-item:nth-child(979) {
-  --circle-color: rgb(119, 142, 246);
+  --circle-color: rgb(139, 168, 248);
 }
 .grid-item:nth-child(980) {
-  --circle-color: rgb(197, 220, 220);
+  --circle-color: rgb(234, 10, 48);
 }
 .grid-item:nth-child(981) {
-  --circle-color: rgb(102, 199, 150);
+  --circle-color: rgb(173, 2, 247);
 }
 .grid-item:nth-child(982) {
-  --circle-color: rgb(177, 17, 122);
+  --circle-color: rgb(63, 160, 219);
 }
 .grid-item:nth-child(983) {
-  --circle-color: rgb(32, 140, 204);
+  --circle-color: rgb(181, 218, 198);
 }
 .grid-item:nth-child(984) {
-  --circle-color: rgb(238, 147, 246);
+  --circle-color: rgb(236, 12, 181);
 }
 .grid-item:nth-child(985) {
-  --circle-color: rgb(135, 67, 104);
+  --circle-color: rgb(53, 247, 70);
 }
 .grid-item:nth-child(986) {
-  --circle-color: rgb(72, 148, 121);
+  --circle-color: rgb(141, 50, 202);
 }
 .grid-item:nth-child(987) {
-  --circle-color: rgb(44, 142, 234);
+  --circle-color: rgb(123, 77, 18);
 }
 .grid-item:nth-child(988) {
-  --circle-color: rgb(246, 80, 86);
+  --circle-color: rgb(94, 114, 219);
 }
 .grid-item:nth-child(989) {
-  --circle-color: rgb(70, 195, 53);
+  --circle-color: rgb(48, 52, 85);
 }
 .grid-item:nth-child(990) {
-  --circle-color: rgb(239, 164, 251);
+  --circle-color: rgb(165, 121, 85);
 }
 .grid-item:nth-child(991) {
-  --circle-color: rgb(53, 107, 187);
+  --circle-color: rgb(193, 43, 144);
 }
 .grid-item:nth-child(992) {
-  --circle-color: rgb(178, 222, 92);
+  --circle-color: rgb(104, 136, 225);
 }
 .grid-item:nth-child(993) {
-  --circle-color: rgb(251, 239, 185);
+  --circle-color: rgb(108, 25, 91);
 }
 .grid-item:nth-child(994) {
-  --circle-color: rgb(171, 87, 207);
+  --circle-color: rgb(184, 224, 34);
 }
 .grid-item:nth-child(995) {
-  --circle-color: rgb(193, 50, 130);
+  --circle-color: rgb(5, 196, 188);
 }
 .grid-item:nth-child(996) {
-  --circle-color: rgb(77, 25, 48);
+  --circle-color: rgb(36, 71, 251);
 }
 .grid-item:nth-child(997) {
-  --circle-color: rgb(113, 131, 80);
+  --circle-color: rgb(8, 211, 218);
 }
 .grid-item:nth-child(998) {
-  --circle-color: rgb(133, 138, 35);
+  --circle-color: rgb(162, 91, 52);
 }
 .grid-item:nth-child(999) {
-  --circle-color: rgb(119, 77, 197);
+  --circle-color: rgb(34, 219, 177);
 }
 .grid-item:nth-child(1000) {
-  --circle-color: rgb(209, 16, 17);
+  --circle-color: rgb(129, 153, 100);
 }
 
 .container {

@@ -38,24 +38,19 @@ $(document).ready(function () {
   });
 
 
-  //mataň görnüşini saýlamak
-  $(".custom-select-wrapper-colour").on("click", function (e) {
-    e.preventDefault();
-    $(".select-options-wrapper").toggle();
-  });
+  //profil sahypada tab goýmak
 
-  $(".select-options-wrapper ul li").on("click", function (e) {
-    e.preventDefault();
-    console.log($(this).text());
-    $(this).closest("ul").find("li").removeClass("--selected");
-    $(this).addClass("--selected");
-    $(".selected-option span").html($(this).text());
-  });
 
-  $(document).on("click", function (e) {
-    if ($(e.target).closest(".custom-select-wrapper-colour").length === 0) {
-      $(".select-options-wrapper").hide();
-    }
+  
+  var tabsItem = $(".account__main__toggle__item");
+  var contentItem = $(".menu");
+
+  tabsItem.on("click", function (event) {
+    var activeContent = $(this).attr("data-target");
+    tabsItem.removeClass("account__main__toggle__item--active");
+    contentItem.removeClass("menu--active");
+    $(activeContent).addClass("menu--active");
+    $(this).addClass("account__main__toggle__item--active");
   });
 
 });

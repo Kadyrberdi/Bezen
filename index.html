@@ -963,49 +963,19 @@
                     <h3 class="title modal__title">Täze fason ýükle</h3>
                     <input type="text" class="input modal__input" placeholder="Suratyň adyny ýazyň*" name="name" required minlength="2"/>
                     <textarea class="message modal__message" placeholder="Suratyňyz barada giňişleýin belläp geçiň ..." name="message"></textarea>
-                    <div class="swatch-attribute-colour custom-select-wrapper-colour">
-                        <div class="selected-option">
-                            <span>Fasonyňyzyň matasyny saýlaň!</span>
-                        </div>
-                        <div class="select-options-wrapper">
-                            <ul>
-                                <li>
-                                    <span class="color"></span>
-                                    <span class="color-label">Atlas</span>
-                                    <span class="color-stock-status"></span>
-                                </li>
-                                <li>
-                                    <span class="color"></span>
-                                    <span class="color-label">Pombarh</span>
-                                    <span class="color-stock-status"></span>
-                                </li>
-                                <li>
-                                    <span class="color"></span>
-                                    <span class="color-label">Gülýüpek</span>
-                                    <span class="color-stock-status"></span>
-                                </li>
-                                <li>
-                                    <span class="color"></span>
-                                    <span class="color-label">Ştapel</span>
-                                    <span class="color-stock-status"></span>
-                                </li>
-                                <li>
-                                    <span class="color"></span>
-                                    <span class="color-label">Suzana</span>
-                                    <span class="color-stock-status"></span>
-                                </li>
-                                <li>
-                                    <span class="color"></span>
-                                    <span class="color-label">Streýç</span>
-                                    <span class="color-stock-status"></span>
-                                </li>
-                                <li>
-                                    <span class="color"></span>
-                                    <span class="color-label">Kaşemir</span>
-                                    <span class="color-stock-status"></span>
-                                </li>
-                            </ul>
-                        </div>
+                    
+                    <div class="select-mata">
+                        <label class="selected-option" for="mataSelect">Fasonyňyzyň matasyny saýlaň :</label>
+                        <select name="matalar" id="mataSelect">
+                            <option value="pombarh">Pombarh</option>
+                            <option value="gulyupek">Gülýüpek</option>
+                            <option value="shtapel">Ştapel</option>
+                            <option value="suzana">Suzana</option>
+                            <option value="streýç">Streýç</option>
+                            <option value="kashemir">Kaşemir</option>
+                            <option value="atlas">Atlas</option>
+                            <option value="other">Başga ...</option>
+                        </select>
                     </div>
                     <div class="modal__send">
                         <button class="button modal__button" type="submit">Ugrat</button>

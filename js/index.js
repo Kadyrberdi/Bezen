@@ -153,7 +153,7 @@ function getUploadedFile() {
   }
 }
 
-
+//modal aknoda surat goýmak
 function previewImage() {
 const UplInput = document.querySelector(".form__img"),
   bgImage = document.querySelector(".form__left"),

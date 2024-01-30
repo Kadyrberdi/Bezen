@@ -3,6 +3,16 @@
         content: ''
         display: block
         clear: both
+    &-item2
+        width: 160px
+        height: 120px
+        float: left
+        border: 1px solid #C8A631
+        border-radius: 5px
+        margin-bottom: 10px
+        position: relative
+        cursor: zoom-in
+        margin-right: 10px
     &-item 
         width: 160px
         height: 120px
@@ -12,16 +22,6 @@
         margin-bottom: 10px
         position: relative
         cursor: zoom-in
-        &-item2
-        width: 160px
-        height: 120px
-        float: left
-        border: 1px solid #C8A631
-        border-radius: 5px
-        margin-bottom: 10px
-        position: relative
-        cursor: zoom-in
-
         &--height
             &1
                 height: 120px
@@ -79,6 +79,7 @@
         width: 30px
         height: 30px
         fill: red
+// Hover effektler
 .grid-item:hover > .grid-item--cover   
     display: block
 
@@ -104,6 +105,29 @@
 .grid-item:hover > .grid-item--img
     object-fit: contain
 
-.grid div:hover
-    //opacity: 0.9
+// Hover effektler Profil sahypaň Halanlarym tab-y üçin
 
+.grid-item2:hover > .grid-item--cover   
+    display: block
+
+
+.grid-item2:hover > .grid-item--like   
+    display: flex
+    align-items: center
+    position: absolute
+    left: 47%
+    top: 47%
+    color: white
+    img
+        height: 30px
+        margin-right: 8px
+    span
+        display: block
+        opacity: 1
+    
+.grid-item2:hover > .grid-item--icon
+    transition-duration: 0.5
+    display: block
+
+.grid-item2:hover > .grid-item--img
+    object-fit: contain

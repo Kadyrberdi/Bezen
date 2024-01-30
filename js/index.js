@@ -14,6 +14,22 @@ var msnry = new Masonry('.grid', {
 });
 
 
+//Masonry grid
+var elem2 = document.querySelector('.grid2');
+var msnry = new Masonry(elem, {
+  // options
+  itemSelector: '.grid-item2',
+  columnWidth: 160,
+  gutter: 10
+});
+
+// element argument can be a selector string
+//   for an individual element
+var msnry2 = new Masonry('.grid2', {
+  // options
+});
+
+
 
 // Download Button Function 
 const download_buttons = document.querySelectorAll(".grid-item--download");

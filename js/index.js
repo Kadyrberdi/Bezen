@@ -9,14 +9,14 @@ var msnry = new Masonry(elem, {
 
 // element argument can be a selector string
 //   for an individual element
-var msnry = new Masonry('.grid', {
-  // options
-});
+/* var msnry = new Masonry('.grid', {
+  
+}); */
 
 
 //Masonry grid
 var elem2 = document.querySelector('.grid2');
-var msnry2 = new Masonry2(elem, {
+var msnry2 = new Masonry(elem, {
   // options
   itemSelector: '.grid-item2',
   columnWidth: 160,

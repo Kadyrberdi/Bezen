@@ -3,16 +3,24 @@
     margin: auto
 .grid-item--width 
     width: 310px
-//  &1 width: 160px   &2  width: 310px 
 @media (max-width: 1600px)
     .container
         max-width: 1280px
+    .header__container
+        grid-template-columns:  27% 60% 10%
 
 @media (max-width: 1292px)
     .container
         max-width: 960px
     .header__container
-        grid-template-columns:  30% 40% 25%
+        grid-template-columns:  36% 48% 10%
+    .search__tags
+        grid-template-columns: 1fr 1fr
+    .details
+        &__dialog
+            width: 90%
+        &__img
+            width: 100%
 
 @media (max-width: 992px)
     .container
@@ -21,6 +29,9 @@
         display: none
     .header__container
         grid-template-columns:  66% 30%
+    .search__modal
+        top: 850%
+        transform: translate(-50%, -27%)
 
 @media (max-width: 658px)
     .container
@@ -29,14 +40,15 @@
         width: 155px 
     .grid-item
         margin-bottom: 5px
+    .home
+        display: none
 
 @media (max-width: 490px)
     .container
         max-width: 320px
-    .home
-        display: none
+    
     .header__container
-        grid-template-columns:  52% 40%
+        grid-template-columns:  59% 36%
 
 @media (max-width: 335px)
     .container

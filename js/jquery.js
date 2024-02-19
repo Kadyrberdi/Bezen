@@ -50,4 +50,34 @@ $(document).ready(function () {
     $(this).addClass("account__main__toggle__item--active");
   });
 
+  //search acylyp yapylyan.
+  var search = $(".search__inputs");
+  var searchOverlay = $(".search__overlay");
+  search.on("click", openModal);
+  searchOverlay.on("click", closeModal);
+
+  function openModal() {
+    var searchOverlay = $(".search__overlay");
+    var searchModal = $(".search__modal");
+    searchOverlay.addClass("search__overlay--visible");
+    searchModal.addClass("search__modal--visible");
+  }
+  function closeModal(event) {
+    event.preventDefault();
+    var searchOverlay = $(".search__overlay");
+    var searchModal = $(".search__modal");
+    
+    searchOverlay.removeClass("search__overlay--visible");
+    searchModal.removeClass("search__modal--visible");
+
+  }
+  $(document).keyup(function (e) {
+    if (e.keyCode == 27) {
+      var searchOverlay = $(".search__overlay");
+      var searchModal = $(".search__modal");
+      searchOverlay.removeClass("search__overlay--visible");
+      searchModal.removeClass("search__modal--visible");
+    }
+  }); 
+
 });

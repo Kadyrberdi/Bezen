@@ -57,6 +57,7 @@
         grid-row-gap: 20px
         justify-items: stretch
         align-items: center
+        padding: 20px
     &__modal
         position: absolute
         background-color: #fff
@@ -64,6 +65,7 @@
         padding-top: 20px
         z-index: 1
         width: 100%
+        border-radius: 0 0 20px 20px
     &__title
         display: block
         font-size: 16px
@@ -129,7 +131,32 @@
 .menu:hover > .menu__hidden
     display: block
     
-.search__modal
-    //display: none
-.search__input:focus > .search__modal
-    display: block
+//search yitishi
+.search
+    &__modal
+        //display: none
+    &__overlay
+        position: fixed
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+        z-index: 100
+        visibility: hidden
+        opacity: 0
+        transition: opacity 0.2s 
+        &--visible
+            visibility: visible
+            opacity: 0.5
+    &__modal
+        top: 500%
+        left: 50%
+        transform: translate(-50%, -49%)
+        z-index: 101
+        visibility: hidden
+        opacity: 0 
+        transition: opacity 0.2s 
+        overflow-y: auto
+        &--visible
+            visibility: visible
+            opacity: 1

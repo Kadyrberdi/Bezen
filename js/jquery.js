@@ -53,16 +53,16 @@ $(document).ready(function () {
   //search acylyp yapylyan.
   var search = $(".search__inputs");
   var searchOverlay = $(".search__overlay");
-  search.on("click", openModal);
-  searchOverlay.on("click", closeModal);
+  search.on("click", openSearch);
+  searchOverlay.on("click", closeSearch);
 
-  function openModal() {
+  function openSearch() {
     var searchOverlay = $(".search__overlay");
     var searchModal = $(".search__modal");
     searchOverlay.addClass("search__overlay--visible");
     searchModal.addClass("search__modal--visible");
   }
-  function closeModal(event) {
+  function closeSearch(event) {
     event.preventDefault();
     var searchOverlay = $(".search__overlay");
     var searchModal = $(".search__modal");

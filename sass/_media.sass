@@ -32,6 +32,17 @@
     .search__modal
         top: 850%
         transform: translate(-50%, -27%)
+    .details
+        &__left
+            margin-right: 20px
+        &__right
+            padding: 20px
+        &__back
+            display: none
+    .acc__followers
+        position: absolute
+        top: 28%
+        left: 58%
 
 @media (max-width: 658px)
     .container
@@ -42,16 +53,52 @@
         margin-bottom: 5px
     .home
         display: none
+    .details
+        &__acc
+            flex-direction: column
+        &__left
+            margin-right: 10px
+        &__right
+            padding: 10px 12px
+        &__dwnld
+            padding: 10px 20px
+    .acc
+        &__left
+            margin-bottom: 10px
+        &__follow
+            padding: 10px
+            text-align: center
+        &__followers
+            position: inherit
 
 @media (max-width: 490px)
     .container
         max-width: 320px
     
-    .header__container
-        grid-template-columns:  59% 36%
+    .header
+        width: 95%
+        margin: auto
+        &__container
+            grid-template-columns:  59% 36%
+    .details
+        &__right
+            display: none
+        &__left
+            margin: 0
+    .edit
+        width: 95%
+        margin: auto
+        &__title
+            text-align: center
+            font-size: 1.5em
+        &__subtitle
+            text-align: center
+
 
 @media (max-width: 335px)
     .container
         max-width: 310px
     .grid-item--width 
         width: 310px
+// media ready : index.html details.html profile.html signup.html edit-acc.html
+// media not ready : 

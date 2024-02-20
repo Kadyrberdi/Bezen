@@ -380,4 +380,11 @@ form.sign-up-form {
         bottom: 28%;
         left: 50%;
     }
+    .title {
+        font-size: 1.5rem;
+    }
+    .social-text {
+        text-align: center;
+    }
+
 }

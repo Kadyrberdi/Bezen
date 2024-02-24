@@ -15,13 +15,13 @@ var msnry = new Masonry(elem, {
 
 
 //Masonry grid
-var elem2 = document.querySelector('.grid2');
-var msnry2 = new Masonry(elem, {
+/* var elem2 = document.querySelector('.grid2');
+var msnry2 = new Masonry2(elem2, {
   // options
   itemSelector: '.grid-item2',
   columnWidth: 160,
   gutter: 10
-});
+}); */
 
 // element argument can be a selector string
 //   for an individual element

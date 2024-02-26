@@ -313,3 +313,60 @@ header .close
 
     &:hover
         background: #8d39fa
+
+
+.followers
+    &__overlay
+        position: fixed
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+        background: $black
+        z-index: 100
+        //visibility: hidden
+        opacity: 0.5
+        transition: opacity 0.2s 
+        &--visible
+            visibility: visible
+            opacity: 0.5
+    &__dialog
+        position: fixed
+        top: 50%
+        left: 50%
+        width: 400px
+        background-color: white
+        transform: translate(-50%, -49%)
+        border-radius: 32px
+        z-index: 101
+        //visibility: hidden
+        //opacity: 0 
+        transition: opacity 0.2s 
+        overflow-y: auto
+        padding: 20px
+        &--visible
+            visibility: visible
+            opacity: 1
+    &__close
+        //position: absolute
+        //right: 18px
+        //top: 17px
+        text-decoration: none
+        cursor: pointer
+    &__title
+        font-style: normal
+        font-weight: bold
+        line-height: 23px
+        text-align: center
+        margin: 0
+    &__input
+        width: 100%
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 15px
+        margin-top: 15px
+        padding: 15px
+        border-radius: 16px
+        outline: none
+        border: 1px solid #e9e9e9

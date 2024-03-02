@@ -79,5 +79,64 @@ $(document).ready(function () {
       searchModal.removeClass("search__modal--visible");
     }
   }); 
+  //followers acylyp yapylyan.
+  var followers = $("[data-toggle=followers]");
+  var closeFollowers = $(".followers__close");
+  var followersOverlay = $(".followers__overlay");
+  followers.on("click", openFollowers);
+  closeFollowers.on("click", closeFollowers_f);
+  followersOverlay.on("click", closeFollowers_f);
+  function openFollowers() {
+    var followersOverlay = $(".followers__overlay");
+    var followersDialog = $(".followers__dialog");
+    followersOverlay.addClass("followers__overlay--visible");
+    followersDialog.addClass("followers__dialog--visible");
+  }
+  function closeFollowers_f(event) {
+    event.preventDefault();
+    var followersOverlay = $(".followers__overlay");
+    var followersDialog = $(".followers__dialog");
+    followersOverlay.removeClass("followers__overlay--visible");
+    followersDialog.removeClass("followers__dialog--visible");
+
+  }
+  $(document).keyup(function (e) {
+    if (e.keyCode == 27) {
+      var followersOverlay = $(".followers__overlay");
+      var followersDialog = $(".followers__dialog");
+      followersOverlay.removeClass("followers__overlay--visible");
+      followersDialog.removeClass("followers__dialog--visible");
+    }
+  });
+
+  //following acylyp yapylyan.
+  var following = $("[data-toggle=following]");
+  var closeFollowing = $(".following__close");
+  var followingOverlay = $(".following__overlay");
+  following.on("click", openFollowing);
+  closeFollowing.on("click", closeFollowing_f);
+  followingOverlay.on("click", closeFollowing_f);
+  function openFollowing() {
+    var followingOverlay = $(".following__overlay");
+    var followingDialog = $(".following__dialog");
+    followingOverlay.addClass("following__overlay--visible");
+    followingDialog.addClass("following__dialog--visible");
+  }
+  function closeFollowing_f(event) {
+    event.preventDefault();
+    var followingOverlay = $(".following__overlay");
+    var followingDialog = $(".following__dialog");
+    followingOverlay.removeClass("following__overlay--visible");
+    followingDialog.removeClass("following__dialog--visible");
+
+  }
+  $(document).keyup(function (e) {
+    if (e.keyCode == 27) {
+      var followingOverlay = $(".following__overlay");
+      var followingDialog = $(".following__dialog");
+      followingOverlay.removeClass("following__overlay--visible");
+      followingDialog.removeClass("following__dialog--visible");
+    }
+  });
 
 });

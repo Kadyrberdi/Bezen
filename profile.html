@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -114,7 +114,7 @@
                 <h2 class="account__name">Kadyr</h2>
                 <a href="#" class="account__username">@kadyrberdi_nurberdi</a>
                 <div class="account__followers">
-                    <span class="followers">421 yzarlaýjylar</span><span class="following"> 0 yzarlaýanlaryň</span>
+                    <a data-toggle="followers" class="followers">421 yzarlaýjylar</a><a data-toggle="following" class="following"> 0 yzarlaýanlaryň</a>
                 </div>
                 <span class="account__statistics">348.7k aýlyk görülen</span>
                 <div class="account__btns">
@@ -756,7 +756,7 @@
         <div class="followers__dialog">
             <div class="followers__header">
                 <span class="followers__title">Yzarlaýjylar</span>
-                <a href="#" class="modal__close">
+                <a href="#" class="followers__close">
                     <!-- x knopka goymaly -->
                     <img src="/images/icons/close.svg" alt="foto :close" />
                 </a>
@@ -773,8 +773,8 @@
                         <div class="followers__list__left">
                             <img src="images/avatar.png" alt="avatar" class="followers__img">
                             <div class="followers__names">
-                                <span class="followers__username">amandj2001</span>
-                                <span class="followers__name">Aman Amanow</span>
+                                <span class="followers__username">sbeater</span>
+                                <span class="followers__name">Süleýman Uşakow</span>
                             </div>
                         </div>
                         <button class="followers__remove">Poz</button>
@@ -783,8 +783,8 @@
                         <div class="followers__list__left">
                             <img src="images/avatar.png" alt="avatar" class="followers__img">
                             <div class="followers__names">
-                                <span class="followers__username">amandj2001</span>
-                                <span class="followers__name">Aman Amanow</span>
+                                <span class="followers__username">sbeater</span>
+                                <span class="followers__name">Süleýman Uşakow</span>
                             </div>
                         </div>
                         <button class="followers__remove">Poz</button>
@@ -793,8 +793,8 @@
                         <div class="followers__list__left">
                             <img src="images/avatar.png" alt="avatar" class="followers__img">
                             <div class="followers__names">
-                                <span class="followers__username">amandj2001</span>
-                                <span class="followers__name">Aman Amanow</span>
+                                <span class="followers__username">sbeater</span>
+                                <span class="followers__name">Süleýman Uşakow</span>
                             </div>
                         </div>
                         <button class="followers__remove">Poz</button>
@@ -803,8 +803,8 @@
                         <div class="followers__list__left">
                             <img src="images/avatar.png" alt="avatar" class="followers__img">
                             <div class="followers__names">
-                                <span class="followers__username">amandj2001</span>
-                                <span class="followers__name">Aman Amanow</span>
+                                <span class="followers__username">sbeater</span>
+                                <span class="followers__name">Süleýman Uşakow</span>
                             </div>
                         </div>
                         <button class="followers__remove">Poz</button>
@@ -813,8 +813,8 @@
                         <div class="followers__list__left">
                             <img src="images/avatar.png" alt="avatar" class="followers__img">
                             <div class="followers__names">
-                                <span class="followers__username">amandj2001</span>
-                                <span class="followers__name">Aman Amanow</span>
+                                <span class="followers__username">sbeater</span>
+                                <span class="followers__name">Süleýman Uşakow</span>
                             </div>
                         </div>
                         <button class="followers__remove">Poz</button>
@@ -823,8 +823,8 @@
                         <div class="followers__list__left">
                             <img src="images/avatar.png" alt="avatar" class="followers__img">
                             <div class="followers__names">
-                                <span class="followers__username">amandj2001</span>
-                                <span class="followers__name">Aman Amanow</span>
+                                <span class="followers__username">sbeater</span>
+                                <span class="followers__name">Süleýman Uşakow</span>
                             </div>
                         </div>
                         <button class="followers__remove">Poz</button>
@@ -833,8 +833,8 @@
                         <div class="followers__list__left">
                             <img src="images/avatar.png" alt="avatar" class="followers__img">
                             <div class="followers__names">
-                                <span class="followers__username">amandj2001</span>
-                                <span class="followers__name">Aman Amanow</span>
+                                <span class="followers__username">sbeater</span>
+                                <span class="followers__name">Süleýman Uşakow</span>
                             </div>
                         </div>
                         <button class="followers__remove">Poz</button>
@@ -847,7 +847,101 @@
         <!-- followers__dialog -->
     </div>
     <!-- /.followers -->
-    <div class="following"></div>
+    <div class="following">
+        <div class="following__overlay"></div>
+        <div class="following__dialog">
+            <div class="following__header">
+                <span class="following__title">Yzarlaýjylar</span>
+                <a href="#" class="following__close">
+                    <!-- x knopka goymaly -->
+                    <img src="/images/icons/close.svg" alt="foto :close" />
+                </a>
+            </div>
+            <!-- /.following__header -->
+            <div class="line"></div>
+            <div class="following__search">
+                <img class="following__search__icon" src="images/icons/search.svg" alt="search icon">
+                <input id="following__search__input" class="following__search__input" type="text" placeholder="Gözle">
+            </div>
+            <div class="following__body">
+                <ul class="following__lists">
+                    <li class="following__list">
+                        <div class="following__list__left">
+                            <img src="images/avatar.png" alt="avatar" class="following__img">
+                            <div class="following__names">
+                                <span class="following__username">amandj</span>
+                                <span class="following__name">Aman Amanow</span>
+                            </div>
+                        </div>
+                        <button class="following__remove">Poz</button>
+                    </li>
+                    <li class="following__list">
+                        <div class="following__list__left">
+                            <img src="images/avatar.png" alt="avatar" class="following__img">
+                            <div class="following__names">
+                                <span class="following__username">amandj</span>
+                                <span class="following__name">Aman Amanow</span>
+                            </div>
+                        </div>
+                        <button class="following__remove">Poz</button>
+                    </li>
+                    <li class="following__list">
+                        <div class="following__list__left">
+                            <img src="images/avatar.png" alt="avatar" class="following__img">
+                            <div class="following__names">
+                                <span class="following__username">amandj</span>
+                                <span class="following__name">Aman Amanow</span>
+                            </div>
+                        </div>
+                        <button class="following__remove">Poz</button>
+                    </li>
+                    <li class="following__list">
+                        <div class="following__list__left">
+                            <img src="images/avatar.png" alt="avatar" class="following__img">
+                            <div class="following__names">
+                                <span class="following__username">amandj</span>
+                                <span class="following__name">Aman Amanow</span>
+                            </div>
+                        </div>
+                        <button class="following__remove">Poz</button>
+                    </li>
+                    <li class="following__list">
+                        <div class="following__list__left">
+                            <img src="images/avatar.png" alt="avatar" class="following__img">
+                            <div class="following__names">
+                                <span class="following__username">amandj</span>
+                                <span class="following__name">Aman Amanow</span>
+                            </div>
+                        </div>
+                        <button class="following__remove">Poz</button>
+                    </li>
+                    <li class="following__list">
+                        <div class="following__list__left">
+                            <img src="images/avatar.png" alt="avatar" class="following__img">
+                            <div class="following__names">
+                                <span class="following__username">amandj</span>
+                                <span class="following__name">Aman Amanow</span>
+                            </div>
+                        </div>
+                        <button class="following__remove">Poz</button>
+                    </li>
+                    <li class="following__list">
+                        <div class="following__list__left">
+                            <img src="images/avatar.png" alt="avatar" class="following__img">
+                            <div class="following__names">
+                                <span class="following__username">amandj</span>
+                                <span class="following__name">Aman Amanow</span>
+                            </div>
+                        </div>
+                        <button class="following__remove">Poz</button>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.following__search -->
+            
+        </div>
+        <!-- following__dialog -->
+    </div>
     <!-- /.following -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/jquery.js"></script>
